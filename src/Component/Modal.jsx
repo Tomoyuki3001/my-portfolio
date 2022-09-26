@@ -22,7 +22,10 @@ const Modal = (props) => {
               <div className="modal-body-favorite-photoes">
                 <a href="" className="image_box hover">
                   <figure className="favorite_image">
-                    <img src="image_favorite_1.jpg" alt="アルパカ" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/image_favorite_1.jpg`}
+                      alt="photos"
+                    />
                     <figcaption className="favorite_image_hover">
                       <div className="txt_box">
                         <h1 className="favorite_h1">TENNIS</h1>
@@ -40,7 +43,10 @@ const Modal = (props) => {
               <div className="modal-body-favorite-photoes">
                 <a href="" className="image_box hover">
                   <figure className="favorite_image">
-                    <img src="image_favorite_2.jpg" alt="アルパカ" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/image_favorite_2.jpg`}
+                      alt="photos"
+                    />
                     <figcaption className="favorite_image_hover">
                       <div className="txt_box">
                         <h1 className="favorite_h1">PHOTOS</h1>
@@ -59,7 +65,10 @@ const Modal = (props) => {
               <div className="modal-body-favorite-photoes">
                 <a href="" className="image_box hover">
                   <figure className="favorite_image">
-                    <img src="image_favorite_3.jpg" alt="アルパカ" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/image_favorite_3.jpg`}
+                      alt="photos"
+                    />
                     <figcaption className="favorite_image_hover">
                       <div className="txt_box">
                         <h1 className="favorite_h1">TRIATHON</h1>

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactStyle = styled.div`
-  @media (min-width: 361px) {
+  @media (min-width: 400px) {
     .contact_container {
       display: flex;
       background-color: #e5e8ed;

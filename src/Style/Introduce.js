@@ -35,7 +35,7 @@ export const IntroduceStyle = styled.div`
     font-size: 2em;
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 400px) {
     .main_introduce_sentence_section {
       padding: 20% 0% 0% 0%;
       text-align: center;

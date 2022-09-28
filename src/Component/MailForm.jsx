@@ -48,7 +48,7 @@ export default Contact;
 
 // Styles
 const StyledContactForm = styled.div`
-  @media (min-width: 361px) {
+  @media (min-width: 400px) {
     width: 50%;
     form {
       display: flex;

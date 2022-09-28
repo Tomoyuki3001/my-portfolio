@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsStyle = styled.div`
-  @media (min-width: 361px) {
+  @media (min-width: 400px) {
     .main_project_section {
       height: 70rem;
       background-color: #e5e8ed;

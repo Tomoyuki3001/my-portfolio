@@ -59,7 +59,7 @@ export const NavStyle = styled.div`
     margin: 0% 10%;
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 400px) {
     .nav_section {
       display: flex;
       align-items: center;

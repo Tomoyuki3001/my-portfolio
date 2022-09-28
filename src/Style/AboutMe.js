@@ -92,7 +92,7 @@ export const AboutMeStyle = styled.div`
     border: 2px solid #ffffff;
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 400px) {
     .main_aboutme_section {
       height: 39rem;
       padding: 0% 10%;

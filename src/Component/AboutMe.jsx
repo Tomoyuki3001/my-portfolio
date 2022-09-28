@@ -19,57 +19,42 @@ export default function AboutMe() {
               <Icon
                 icon="akar-icons:html-fill"
                 color="#303033"
-                width="5em"
-                height="5em"
+                className="main_icon"
               />
             </div>
             <div className="main_about_icon">
               <Icon
                 icon="akar-icons:css-fill"
                 color="#303033"
-                width="5em"
-                height="5em"
+                className="main_icon"
               />
             </div>
             <div className="main_about_icon">
-              <Icon
-                icon="fa-brands:js"
-                color="#303033"
-                width="5em"
-                height="5em"
-              />
+              <Icon icon="fa-brands:js" color="#303033" className="main_icon" />
             </div>
             <div className="main_about_icon">
               <Icon
                 icon="akar-icons:react-fill"
                 color="#303033"
-                width="5em"
-                height="5em"
+                className="main_icon"
               />
             </div>
             <div className="main_about_icon">
               <Icon
                 icon="akar-icons:github-fill"
                 color="#303033"
-                width="5em"
-                height="5em"
+                className="main_icon"
               />
             </div>
             <div className="main_about_icon">
               <Icon
                 icon="fa-brands:node"
                 color="#303033"
-                width="5em"
-                height="5em"
+                className="main_icon"
               />
             </div>
             <div className="main_about_icon">
-              <Icon
-                icon="bxl:firebase"
-                color="#303033"
-                width="5rem"
-                height="5rem"
-              />
+              <Icon icon="bxl:firebase" color="#303033" className="main_icon" />
             </div>
           </div>
         </div>
@@ -90,13 +75,15 @@ export default function AboutMe() {
           <span className="main_about_third_sentence">
             Please click it to see more information →{" "}
           </span>
-          <button
-            onClick={() => setShow(true)}
-            className="main_about_third_button"
-          >
-            Show my photoes
-          </button>
-          <Modal show={show} onClose={() => setShow(false)} />
+          <div className="main_about_button_container">
+            <button
+              onClick={() => setShow(true)}
+              className="main_about_third_button"
+            >
+              Show my photoes
+            </button>
+            <Modal show={show} onClose={() => setShow(false)} />
+          </div>
         </div>
       </div>
     </AboutMeStyle>

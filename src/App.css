@@ -33,4 +33,10 @@
   justify-content: space-around;
   text-align: center;
   cursor: pointer;
+  justify-content: center;
 } */
+
+.test {
+  display: flex;
+  text-align: center;
+}

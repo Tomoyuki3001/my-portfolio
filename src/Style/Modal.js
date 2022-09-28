@@ -12,7 +12,7 @@ export const ModalStyle = styled.div`
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
     pointer-events: none;
   }
 
@@ -29,7 +29,7 @@ export const ModalStyle = styled.div`
     width: 80rem;
     height: 37rem;
     background-color: rgba(245, 245, 245, 0.8);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
     transform: translateY(-200px);
     text-align: center;
   }

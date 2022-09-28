@@ -53,14 +53,64 @@ export const NavStyle = styled.div`
     margin: 30% 0% 10% 0%;
   }
 
-  .nav_footer_sentence {
-    margin: 5% 5% 5% 5%;
-    font-size: 1.2rem;
-  }
-
   .nav_footer_container {
     display: flex;
     justify-content: space-around;
     margin: 0% 10%;
+  }
+
+  @media (max-width: 360px) {
+    .nav_section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 7%;
+      width: 100%;
+    }
+
+    .nav_section_h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0%;
+      height: 100%;
+      font-size: 0.5rem;
+      width: 15%;
+    }
+
+    .nav_list_container {
+      display: flex;
+      font-size: 0.4rem;
+      margin: 0% 0% 0% 5%;
+      width: 65%;
+      height: 100%;
+    }
+
+    .nav_list_section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0%;
+      width: 100%;
+    }
+
+    .nav_footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0%;
+      width: 20%;
+      height: 100%;
+    }
+
+    .nav_footer_list {
+      list-style: none;
+      margin: 0% 7% 0% 0%;
+    }
+
+    .nav_icon {
+      width: 0.8rem;
+      height: 0.8rem;
+    }
   }
 `;

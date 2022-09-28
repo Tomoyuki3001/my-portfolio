@@ -50,9 +50,6 @@ export const AboutMeStyle = styled.div`
     padding-left: 10%;
   }
 
-  .main_about_second {
-  }
-
   .main_about_second:after {
     border-top: 2px solid;
     content: "";
@@ -93,5 +90,60 @@ export const AboutMeStyle = styled.div`
     color: #ffffff;
     background-color: #343a40;
     border: 2px solid #ffffff;
+  }
+
+  @media (max-width: 360px) {
+    .main_aboutme_section {
+      height: 39rem;
+      padding: 0% 10%;
+      margin-top: 10%;
+    }
+
+    .main_about_icons {
+      display: flex;
+      width: 1em;
+    }
+
+    .main_abount_sentence,
+    .main_about_second_sentence,
+    .main_about_third_sentence {
+      font-size: 1rem;
+      padding-left: 0%;
+    }
+
+    .main_about_h2 {
+      font-size: 1em;
+    }
+
+    .main_about_career_container {
+      padding-left: 0%;
+    }
+
+    .main_about_photoes_container {
+      padding-left: 0%;
+    }
+
+    .main_about_h2:after {
+      border-top: 2px solid;
+      content: "";
+      width: 15rem;
+      margin-left: 1em;
+    }
+
+    .main_about_icon {
+      margin: 0%;
+      width: 2.5rem;
+    }
+
+    .main_icon {
+      width: 4rem;
+    }
+
+    .main_about_button_container {
+      margin-top: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 `;

@@ -7,18 +7,15 @@ export default function Navbar() {
   return (
     <NavStyle>
       <div className="nav_section">
-        <div className="nav_section_h1">
-          <h1>
-            Tomo<span>.</span>
-          </h1>
-        </div>
         <div className="nav_list_container">
-          <ul className="nav_list_section">
-            <li className="nav_footer_list nav_link">
-              <AnchorLink href="#top" offset="40" className="nav_inside_link">
-                TOP
+          <div className="nav_section_h1">
+            <h1>
+              <AnchorLink href="#top" offset="40" className="nav_top_header">
+                Tomo.
               </AnchorLink>
-            </li>
+            </h1>
+          </div>
+          <ul className="nav_list_section">
             <li className="nav_footer_list nav_link">
               <AnchorLink
                 href="#aboutme"

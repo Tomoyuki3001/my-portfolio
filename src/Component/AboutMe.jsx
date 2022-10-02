@@ -72,10 +72,10 @@ export default function AboutMe() {
             I like playing tennis, taking photos, and doing some activities.
             Those times make me feel good and change my mind.
           </p>
-          <span className="main_about_third_sentence">
-            Please click it to see more information →{" "}
-          </span>
           <div className="main_about_button_container">
+            <span className="main_about_third_sentence">
+              Click it to see photos →{"  "}
+            </span>
             <button
               onClick={() => setShow(true)}
               className="main_about_third_button"

@@ -20,6 +20,7 @@ const Modal = (props) => {
                   <img
                     src={`${process.env.PUBLIC_URL}/image_favorite_1.jpg`}
                     alt="photos"
+                    className="modal_image"
                   />
                   <figcaption className="favorite_image_hover">
                     <div className="txt_box">
@@ -41,6 +42,7 @@ const Modal = (props) => {
                   <img
                     src={`${process.env.PUBLIC_URL}/image_favorite_2.jpg`}
                     alt="photos"
+                    className="modal_image"
                   />
                   <figcaption className="favorite_image_hover">
                     <div className="txt_box">
@@ -63,6 +65,7 @@ const Modal = (props) => {
                   <img
                     src={`${process.env.PUBLIC_URL}/image_favorite_3.jpg`}
                     alt="photos"
+                    className="modal_image"
                   />
                   <figcaption className="favorite_image_hover">
                     <div className="txt_box">

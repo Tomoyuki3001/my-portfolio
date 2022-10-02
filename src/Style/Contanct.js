@@ -1,22 +1,21 @@
 import styled from "styled-components";
 
 export const ContactStyle = styled.div`
-  @media (min-width: 400px) {
+  @media (min-width: 402px) {
     .contact_container {
       display: flex;
       background-color: #e5e8ed;
-      padding: 0% 10% 0% 5%;
-      margin-top: 5%;
+      padding: 0% 10% 0% 10%;
+      margin-top: 10%;
     }
     .main_contact_section {
       width: 40%;
       height: 30%;
-      padding: 3% 10%;
     }
 
     .main_contact_header_h2 {
       font-size: 2em;
-      margin-bottom: 2%;
+      margin: 10% 0% 5% 0%;
     }
 
     .main_contact_address_part {
@@ -25,8 +24,15 @@ export const ContactStyle = styled.div`
     }
   }
 
-  .contact_container {
-    padding: 0% 10%;
-    margin-top: 15%;
+  @media (max-width: 401px) {
+    .contact_container {
+      padding: 0% 10%;
+      margin-top: 30%;
+    }
+
+    .main_contact_header_h2 {
+      font-size: 2em;
+      margin: 10% 0%;
+    }
   }
 `;

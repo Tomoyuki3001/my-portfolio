@@ -41,7 +41,12 @@ export const AboutMeStyle = styled.div`
   }
 
   .main_about_icon {
-    margin: 0% 3%;
+    margin: 3% 3% 0% 3%;
+  }
+
+  .main_icon {
+    width: 4rem;
+    height: 4rem;
   }
 
   // Second container
@@ -92,22 +97,31 @@ export const AboutMeStyle = styled.div`
     border: 2px solid #ffffff;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 401px) {
     .main_aboutme_section {
-      height: 39rem;
+      height: 30rem;
       padding: 0% 10%;
       margin-top: 10%;
     }
 
     .main_about_icons {
       display: flex;
-      width: 1em;
+      width: 1rem;
+    }
+
+    .main_about_icon {
+      margin: 3% 50%;
+    }
+
+    .main_icon {
+      width: 1.5rem;
+      height: 1.5rem;
     }
 
     .main_abount_sentence,
     .main_about_second_sentence,
     .main_about_third_sentence {
-      font-size: 1rem;
+      font-size: 0.8rem;
       padding-left: 0%;
     }
 
@@ -130,20 +144,27 @@ export const AboutMeStyle = styled.div`
       margin-left: 1em;
     }
 
-    .main_about_icon {
-      margin: 0%;
-      width: 2.5rem;
-    }
-
-    .main_icon {
-      width: 4rem;
-    }
-
     .main_about_button_container {
       margin-top: 10%;
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+
+    .main_about_third_button {
+      width: 8rem;
+      padding: 0.2rem 0.1rem;
+      position: relative;
+      overflow: hidden;
+      border: 0;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background-color: #e5e8ed;
+      color: #343a40;
+      border: 2px solid #343a40;
+      font-size: 0.5rem;
+      margin-left: 5%;
     }
   }
 `;

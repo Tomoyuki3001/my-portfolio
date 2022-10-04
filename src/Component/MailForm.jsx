@@ -50,7 +50,86 @@ export default Contact;
 
 // Styles
 const StyledContactForm = styled.div`
-  @media (min-width: 402px) {
+  @media (max-width: 600px) {
+    width: 100%;
+    form {
+      margin-top: 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+    textarea {
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+      max-height: 100px;
+      min-height: 100px;
+      border-radius: 5px;
+      border: 1px solid rgb(220, 220, 220);
+      &:focus {
+        border: 2px solid rgba(0, 206, 158, 1);
+      }
+    }
+    button {
+      width: 60%;
+      background: rgb(249, 105, 14);
+      color: white;
+      border: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      margin: 5% 0% 0% 20%;
+    }
+  }
+
+  @media (min-width: 601px) {
+    width: 50%;
+    form {
+      width: 100%;
+      font-size: 1rem;
+      margin: 20% 10% 0% 10%;
+      input {
+        width: 100%;
+        height: 1rem;
+        padding: 7px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid rgb(220, 220, 220);
+        &:focus {
+          border: 2px solid rgba(0, 206, 158, 1);
+        }
+      }
+      textarea {
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+        max-height: 100px;
+        min-height: 100px;
+        padding: 7px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid rgb(220, 220, 220);
+        &:focus {
+          border: 2px solid rgba(0, 206, 158, 1);
+        }
+      }
+      label {
+        margin-top: 1rem;
+      }
+      button {
+        width: 70%;
+        cursor: pointer;
+        background: rgb(249, 105, 14);
+        color: white;
+        border: none;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        margin: 5% 0% 0% 17%;
+      }
+    }
+  }
+
+  @media (min-width: 1020px) {
     width: 50%;
     form {
       width: 100%;
@@ -94,38 +173,6 @@ const StyledContactForm = styled.div`
         border-radius: 5px;
         margin: 5% 0% 0% 17%;
       }
-    }
-  }
-
-  @media (max-width: 401px) {
-    width: 100%;
-    form {
-      margin-top: 10%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 100%;
-    }
-    textarea {
-      max-width: 100%;
-      min-width: 100%;
-      width: 100%;
-      max-height: 100px;
-      min-height: 100px;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-    button {
-      width: 60%;
-      background: rgb(249, 105, 14);
-      color: white;
-      border: none;
-      font-size: 1rem;
-      border-radius: 5px;
-      margin: 5% 0% 0% 20%;
     }
   }
 `;

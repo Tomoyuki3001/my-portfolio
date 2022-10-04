@@ -59,7 +59,7 @@ export default function AboutMe() {
           </div>
         </div>
         <div className="main_about_career_container">
-          <h2 className="main_about_h2 main_about_second">Career</h2>
+          <h2 className="main_about_h2">Career</h2>
           <p className="main_about_second_sentence">
             Cornerstone International (CICCC) - December 2022 <br /> Web
             development co-op diploma Tokai University - March 2018 <br />{" "}
@@ -67,7 +67,7 @@ export default function AboutMe() {
           </p>
         </div>
         <div className="main_about_photoes_container">
-          <h2 className="main_about_h2 main_about_third">Myself</h2>
+          <h2 className="main_about_h2">Myself</h2>
           <p className="main_about_third_sentence">
             I like playing tennis, taking photos, and doing some activities.
             Those times make me feel good and change my mind.

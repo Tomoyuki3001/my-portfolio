@@ -19,7 +19,7 @@ export const NavStyle = styled.div`
       justify-content: center;
       margin: 0%;
       height: 100%;
-      font-size: 0.5rem;
+      font-size: 0.7rem;
       width: 30%;
     }
 
@@ -52,7 +52,8 @@ export const NavStyle = styled.div`
     .nav_footer_list {
       list-style: none;
       width: 30%;
-      font-size: 0.6rem;
+      font-size: 0.85rem;
+      font-weight: bold;
     }
 
     .nav_inside_link,
@@ -61,8 +62,8 @@ export const NavStyle = styled.div`
     }
 
     .nav_icon {
-      width: 0.8rem;
-      height: 0.8rem;
+      width: 1.2rem;
+      height: 1.2rem;
     }
 
     .nav_footer_container {

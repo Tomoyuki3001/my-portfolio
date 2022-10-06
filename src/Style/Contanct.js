@@ -5,6 +5,7 @@ export const ContactStyle = styled.div`
     .contact_container {
       padding: 0% 10%;
       height: 30rem;
+      margin-top: 10%;
     }
 
     .main_contact_header_h2 {

@@ -7,6 +7,11 @@ export const AboutMeStyle = styled.div`
       padding: 10% 10% 0% 10%;
     }
 
+    .main_about_learn_container,
+    .main_about_career_container,
+    .main_about_photoes_container {
+      margin-bottom: 10%;
+    }
     .main_about_icons {
       display: flex;
       width: 1rem;
@@ -24,12 +29,12 @@ export const AboutMeStyle = styled.div`
     .main_abount_sentence,
     .main_about_second_sentence,
     .main_about_third_sentence {
-      font-size: 0.9rem;
+      font-size: 1rem;
       padding-left: 0%;
     }
 
     .main_about_h2 {
-      font-size: 1rem;
+      font-size: 1.3rem;
     }
 
     .main_about_h2:after {
@@ -114,8 +119,8 @@ export const AboutMeStyle = styled.div`
 
     .main_about_third_button {
       cursor: pointer;
-      width: 8rem;
-      padding: 0.2rem 1rem;
+      width: 10rem;
+      padding: 0.2rem 0.5rem;
       position: relative;
       overflow: hidden;
       border: 0;
@@ -125,7 +130,7 @@ export const AboutMeStyle = styled.div`
       background-color: #e5e8ed;
       color: #343a40;
       border: 2px solid #343a40;
-      font-size: 0.5rem;
+      font-size: 0.7rem;
     }
 
     .main_about_third_button:hover {

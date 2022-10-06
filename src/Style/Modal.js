@@ -1,7 +1,224 @@
 import styled from "styled-components";
 
 export const ModalStyle = styled.div`
-  @media (min-width: 400px) {
+  @media (max-width: 600px) {
+    .modal {
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: all 0.4s ease-in-out;
+      pointer-events: none;
+    }
+
+    .modal.show {
+      opacity: 1;
+      pointer-events: visible;
+    }
+
+    .modal-content {
+      width: 30rem;
+      height: 35rem;
+      background-color: rgba(245, 245, 245, 0.8);
+      transition: all 0.4s ease-in-out;
+      transform: translateY(-200px);
+      text-align: center;
+    }
+
+    .modal.show .modal-content {
+      transform: translateY(0);
+    }
+
+    .modal.exit .modal-content {
+      transform: translateY(-200px);
+    }
+
+    .modal-header,
+    .modal-footer {
+      padding: 1rem;
+    }
+
+    .modal-title {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    .modal-body {
+      padding: 1px;
+      height: 26rem;
+    }
+
+    .image_box {
+      width: 350px;
+      display: block;
+    }
+
+    .modal-body-favorite-photoes {
+      width: 33%;
+    }
+
+    .favorite_image {
+      display: flex;
+    }
+
+    .image_box {
+      width: 100%;
+      text-decoration: none;
+    }
+
+    .modal_image {
+      width: 8rem;
+      height: 8rem;
+    }
+
+    .modal-body-favorite-photoes {
+      width: 100%;
+    }
+
+    .favorite_h1 {
+      font-size: 1rem;
+    }
+    .favorite_p {
+      font-size: 0.7rem;
+    }
+    .button {
+      cursor: pointer;
+      width: 10rem;
+      padding: 0.2rem 2.5rem;
+      font-size: 0.8rem;
+      position: relative;
+      overflow: hidden;
+      border: 0;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background-color: #e5e8ed;
+      color: #343a40;
+      border: 2px solid #343a40;
+    }
+    .button:hover {
+      color: #ffffff;
+      background-color: #343a40;
+      border: 2px solid #ffffff;
+    }
+  }
+
+  @media (min-width: 601px) {
+    .modal {
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: all 0.4s ease-in-out;
+      pointer-events: none;
+    }
+
+    .modal.show {
+      opacity: 1;
+      pointer-events: visible;
+    }
+
+    .modal-content {
+      width: 40rem;
+      height: 42rem;
+      background-color: rgba(245, 245, 245, 0.8);
+      transition: all 0.4s ease-in-out;
+      transform: translateY(-200px);
+      text-align: center;
+    }
+
+    .modal.show .modal-content {
+      transform: translateY(0);
+    }
+
+    .modal.exit .modal-content {
+      transform: translateY(-200px);
+    }
+
+    .modal-header,
+    .modal-footer {
+      padding: 1rem;
+    }
+
+    .modal-title {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    .modal-body {
+      padding: 1px;
+      height: 26rem;
+    }
+
+    .image_box {
+      width: 350px;
+      display: block;
+    }
+
+    .modal-body-favorite-photoes {
+      width: 33%;
+    }
+
+    .favorite_image {
+      display: flex;
+    }
+
+    .image_box {
+      width: 100%;
+      text-decoration: none;
+    }
+
+    .modal_image {
+      width: 11rem;
+      height: 11rem;
+    }
+
+    .modal-body-favorite-photoes {
+      width: 100%;
+    }
+
+    .favorite_h1 {
+      font-size: 1.5rem;
+    }
+    .favorite_p {
+      font-size: 1rem;
+    }
+    .button {
+      cursor: pointer;
+      width: 10rem;
+      padding: 0.2rem 2.5rem;
+      margin-top: 7rem;
+      font-size: 1rem;
+      position: relative;
+      overflow: hidden;
+      border: 0;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background-color: #e5e8ed;
+      color: #343a40;
+      border: 2px solid #343a40;
+    }
+    .button:hover {
+      color: #ffffff;
+      background-color: #343a40;
+      border: 2px solid #ffffff;
+    }
+  }
+
+  @media (min-width: 1020px) {
     .modal {
       position: fixed;
       left: 0;
@@ -132,114 +349,6 @@ export const ModalStyle = styled.div`
       width: 15rem;
       padding: 0.2rem 2.5rem;
       font-size: 1.2rem;
-      position: relative;
-      overflow: hidden;
-      border: 0;
-      cursor: pointer;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      background-color: #e5e8ed;
-      color: #343a40;
-      border: 2px solid #343a40;
-    }
-    .button:hover {
-      color: #ffffff;
-      background-color: #343a40;
-      border: 2px solid #ffffff;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .modal {
-      position: fixed;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(0, 0, 0, 0.7);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0;
-      transition: all 0.4s ease-in-out;
-      pointer-events: none;
-    }
-
-    .modal.show {
-      opacity: 1;
-      pointer-events: visible;
-    }
-
-    .modal-content {
-      width: 30rem;
-      height: 35rem;
-      background-color: rgba(245, 245, 245, 0.8);
-      transition: all 0.4s ease-in-out;
-      transform: translateY(-200px);
-      text-align: center;
-    }
-
-    .modal.show .modal-content {
-      transform: translateY(0);
-    }
-
-    .modal.exit .modal-content {
-      transform: translateY(-200px);
-    }
-
-    .modal-header,
-    .modal-footer {
-      padding: 1rem;
-    }
-
-    .modal-title {
-      margin: 0;
-      font-size: 1.5rem;
-    }
-
-    .modal-body {
-      padding: 1px;
-      height: 26rem;
-    }
-
-    .image_box {
-      width: 350px;
-      display: block;
-    }
-
-    .modal-body-favorite-photoes {
-      width: 33%;
-    }
-
-    .favorite_image {
-      display: flex;
-    }
-
-    .image_box {
-      width: 100%;
-      text-decoration: none;
-    }
-
-    .modal_image {
-      width: 8rem;
-      height: 8rem;
-    }
-
-    .modal-body-favorite-photoes {
-      width: 100%;
-    }
-
-    .favorite_h1 {
-      font-size: 1rem;
-    }
-    .favorite_p {
-      font-size: 0.7rem;
-    }
-    .button {
-      cursor: pointer;
-      width: 10rem;
-      padding: 0.2rem 2.5rem;
-      font-size: 0.8rem;
       position: relative;
       overflow: hidden;
       border: 0;

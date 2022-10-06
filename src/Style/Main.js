@@ -5,7 +5,7 @@ export const MainStyle = styled.div`
     .main_section {
       width: 100%;
       margin-left: 0%;
-      height: 200rem;
+      height: 220rem;
       background-color: #e5e8ed;
     }
   }
@@ -23,7 +23,7 @@ export const MainStyle = styled.div`
     .main_section {
       margin-left: 25%;
       width: 75%;
-      height: 210rem;
+      height: 230rem;
       background-color: #e5e8ed;
     }
   }

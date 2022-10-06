@@ -1,6 +1,5 @@
 import React from "react";
 import { ModalStyle } from "../Style/Modal";
-// import "bootstrap/dist/css/bootstrap.min.css";
 
 const Modal = (props) => {
   return (

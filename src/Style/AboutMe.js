@@ -65,7 +65,7 @@ export const AboutMeStyle = styled.div`
     }
   }
 
-  @media (min-width: 601px) {
+  @media (min-width: 601px) and (max-width: 1019px) {
     .main_aboutme_section {
       height: 35rem;
       padding: 10% 10% 0% 10%;

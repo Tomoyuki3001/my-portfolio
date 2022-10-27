@@ -25,7 +25,7 @@ export const ProjectsStyle = styled.div`
     }
   }
 
-  @media (min-width: 601px) {
+  @media (min-width: 601px) and (max-width: 1019px) {
     .main_project_section {
       height: 50rem;
       background-color: #e5e8ed;

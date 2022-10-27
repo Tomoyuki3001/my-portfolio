@@ -31,7 +31,7 @@ export const ContactStyle = styled.div`
     }
   }
 
-  @media (min-width: 601px) {
+  @media (min-width: 601px) and (max-width: 1019px) {
     .contact_container {
       display: flex;
       padding: 0% 5% 0% 5%;

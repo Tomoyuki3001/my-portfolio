@@ -31,7 +31,7 @@ export const IntroduceStyle = styled.div`
     }
   }
 
-  @media (min-width: 601px) {
+  @media (min-width: 601px) and (max-width: 1019px) {
     .main_introduce_sentence_section {
       padding: 5%;
       text-align: center;

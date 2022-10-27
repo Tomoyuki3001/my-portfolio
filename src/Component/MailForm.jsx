@@ -92,7 +92,7 @@ const StyledContactForm = styled.div`
     }
   }
 
-  @media (min-width: 601px) {
+  @media (min-width: 601px) and (max-width: 1019px) {
     width: 50%;
     form {
       width: 100%;
@@ -167,11 +167,11 @@ const StyledContactForm = styled.div`
         background: rgb(249, 105, 14);
         color: white;
         border: none;
-        font-size: 30px;
         background-color: #e5e8ed;
         color: #343a40;
         border: 2px solid #343a40;
         margin: 5% 0% 0% 17%;
+        font-size: 24px;
       }
     }
   }

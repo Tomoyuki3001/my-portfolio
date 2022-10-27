@@ -15,10 +15,10 @@ export default function Introduce() {
             <h2 className="main_self_introduce_name_h2">Hello I am</h2>
             <h1 className="main_self_introduce_name_h1">Tomoyuki Fujii</h1>
           </div>
-          <p className="main_self_introduce_sentence">
-            I’m a junior front-end developer based in Vancouver. <br /> I have
-            learned those languages for 1 year.
-          </p>
+          <span className="main_self_introduce_sentence">
+            I’m a junior front-end developer based in Vancouver. I have learned
+            those languages for 1 year.
+          </span>
         </div>
       </div>
     </IntroduceStyle>

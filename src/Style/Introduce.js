@@ -3,45 +3,41 @@ import styled from "styled-components";
 export const IntroduceStyle = styled.div`
   @media (max-width: 600px) {
     .main_introduce_sentence_section {
-      padding: 20% 0% 0% 0%;
+      padding: 50px 0px 25px 0px;
       text-align: center;
-      height: 25rem;
-      background-image: url(https://wallpaperaccess.com/full/2722365.jpg);
-      background-attachment: fixed;
+      height: 70vh;
+      background-image: url(https://images.pexels.com/photos/5326965/pexels-photo-5326965.jpeg);
       background-size: cover;
-      background-position: center;
     }
     .main_self_introduce_image {
       border-radius: 50%;
       width: 30%;
       height: 30%;
+      margin: 10% 0% 5% 0%;
     }
     .main_self_introduce_name_h2 {
-      font-size: 1.5rem;
-      margin-top: 2%;
+      font-size: 20px;
+      text-shadow: 2px 2px 5px #ffffff;
     }
 
     .main_self_introduce_name_h1 {
-      font-size: 2rem;
-      margin-top: 1%;
+      font-size: 30px;
+      text-shadow: 2px 2px 5px #ffffff;
     }
 
     .main_self_introduce_sentence {
-      padding: 0%;
-      font-size: 1rem;
-      margin-top: 7%;
+      font-size: 16px;
+      background-color: rgba(255, 255, 255, 0.35);
     }
   }
 
   @media (min-width: 601px) {
     .main_introduce_sentence_section {
-      padding: 5% 0%;
+      padding: 5%;
       text-align: center;
       height: 40rem;
-      background-image: url(https://wallpaperaccess.com/full/2722365.jpg);
-      background-attachment: fixed;
+      background-image: url(https://images.pexels.com/photos/5326965/pexels-photo-5326965.jpeg);
       background-size: cover;
-      background-position: center;
     }
 
     .main_self_introduce_image {
@@ -64,14 +60,13 @@ export const IntroduceStyle = styled.div`
     }
 
     .main_self_introduce_sentence {
-      padding: 0% 20%;
       font-size: 1.2rem;
     }
   }
 
   @media (min-width: 1020px) {
     .main_introduce_sentence_section {
-      padding: 5% 0%;
+      padding: 5%;
       text-align: center;
       height: 47rem;
       background-image: url(https://wallpaperaccess.com/full/2722365.jpg);
@@ -82,26 +77,25 @@ export const IntroduceStyle = styled.div`
 
     .main_self_introduce_image {
       border-radius: 50%;
-      width: 20%;
-      height: 20%;
+      width: 25%;
+      height: 25%;
     }
     .main_self_introduce_name {
       margin-bottom: 3%;
     }
 
     .main_self_introduce_name_h2 {
-      font-size: 2em;
-      margin-top: 2%;
+      font-size: 2rem;
+      margin-top: 5%;
     }
 
     .main_self_introduce_name_h1 {
-      font-size: 3.5em;
-      margin-top: 2%;
+      font-size: 3.5rem;
+      margin-top: 0%;
     }
 
     .main_self_introduce_sentence {
-      padding: 0% 20%;
-      font-size: 2em;
+      font-size: 2rem;
     }
   }
 `;

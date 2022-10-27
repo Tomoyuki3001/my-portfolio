@@ -7,14 +7,14 @@ export const NavStyle = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 4rem;
+      height: 60px;
       width: 100%;
       z-index: 10;
       position: fixed;
     }
 
     .nav_section_h1 {
-      display: flex;
+      display: none;
       align-items: center;
       justify-content: center;
       margin: 0%;
@@ -28,7 +28,7 @@ export const NavStyle = styled.div`
       justify-content: space-around;
       font-size: 0.4rem;
       margin: 0%;
-      width: 70%;
+      width: 100%;
       height: 100%;
     }
 
@@ -41,7 +41,7 @@ export const NavStyle = styled.div`
     }
 
     .nav_footer {
-      display: flex;
+      display: none;
       align-items: center;
       justify-content: center;
       margin: 0%;
@@ -52,8 +52,9 @@ export const NavStyle = styled.div`
     .nav_footer_list {
       list-style: none;
       width: 30%;
-      font-size: 0.85rem;
+      font-size: 16px;
       font-weight: bold;
+      text-align: center;
     }
 
     .nav_inside_link,

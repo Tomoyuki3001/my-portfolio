@@ -31,13 +31,13 @@ const Contact = () => {
     <StyledContactForm>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name="user_name" />
+        <input type="text" name="user_name" className="form_input" />
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input type="email" name="user_email" className="form_input" />
         <label>Subject</label>
-        <input type="subject" name="user_subject" />
+        <input type="subject" name="user_subject" className="form_input" />
         <label>Message</label>
-        <textarea name="message" />
+        <textarea name="message" className="form_input" />
         <div className="mail_button">
           <button type="submit">Send</button>
         </div>
@@ -53,7 +53,7 @@ const StyledContactForm = styled.div`
   @media (max-width: 600px) {
     width: 100%;
     form {
-      margin-top: 10%;
+      margin: 10% 0%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -65,20 +65,30 @@ const StyledContactForm = styled.div`
       width: 100%;
       max-height: 100px;
       min-height: 100px;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
+      border: 1px solid rgb(133, 133, 133);
     }
     button {
-      width: 60%;
-      background: rgb(249, 105, 14);
-      color: white;
-      border: none;
-      font-size: 1rem;
-      border-radius: 5px;
-      margin: 5% 0% 0% 20%;
+      padding: 5px 20px;
+      margin: 10% 0% 0% 0%;
+      position: relative;
+      overflow: hidden;
+      border: 0;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background-color: #e5e8ed;
+      color: #343a40;
+      border: 2px solid #343a40;
+      font-size: 20px;
+    }
+
+    .form_input {
+      font-size: 16px;
+    }
+
+    .mail_button {
+      display: flex;
+      flex-direction: column;
     }
   }
 
@@ -87,17 +97,13 @@ const StyledContactForm = styled.div`
     form {
       width: 100%;
       font-size: 1rem;
-      margin: 20% 10% 0% 10%;
+      margin: 20% 10% 15% 10%;
       input {
         width: 100%;
         height: 1rem;
         padding: 7px;
         outline: none;
-        border-radius: 5px;
-        border: 1px solid rgb(220, 220, 220);
-        &:focus {
-          border: 2px solid rgba(0, 206, 158, 1);
-        }
+        border: 1px solid rgb(133, 133, 133);
       }
       textarea {
         max-width: 100%;
@@ -107,11 +113,7 @@ const StyledContactForm = styled.div`
         min-height: 100px;
         padding: 7px;
         outline: none;
-        border-radius: 5px;
-        border: 1px solid rgb(220, 220, 220);
-        &:focus {
-          border: 2px solid rgba(0, 206, 158, 1);
-        }
+        border: 1px solid rgb(133, 133, 133);
       }
       label {
         margin-top: 1rem;
@@ -123,7 +125,9 @@ const StyledContactForm = styled.div`
         color: white;
         border: none;
         font-size: 1.2rem;
-        border-radius: 5px;
+        background-color: #e5e8ed;
+        color: #343a40;
+        border: 2px solid #343a40;
         margin: 5% 0% 0% 17%;
       }
     }
@@ -134,16 +138,13 @@ const StyledContactForm = styled.div`
     form {
       width: 100%;
       font-size: 1.5rem;
-      margin: 20% 10% 0% 10%;
+      margin: 20% 10% 15% 10%;
       input {
         width: 100%;
         height: 35px;
         padding: 7px;
         outline: none;
-        border-radius: 5px;
-        border: 1px solid rgb(220, 220, 220);
-        &:focus {
-          border: 2px solid rgba(0, 206, 158, 1);
+        border: 1px solid rgb(133, 133, 133);
         }
       }
       textarea {
@@ -154,10 +155,7 @@ const StyledContactForm = styled.div`
         min-height: 100px;
         padding: 7px;
         outline: none;
-        border-radius: 5px;
-        border: 1px solid rgb(220, 220, 220);
-        &:focus {
-          border: 2px solid rgba(0, 206, 158, 1);
+        border: 1px solid rgb(133, 133, 133);
         }
       }
       label {
@@ -169,8 +167,10 @@ const StyledContactForm = styled.div`
         background: rgb(249, 105, 14);
         color: white;
         border: none;
-        font-size: 1.5rem;
-        border-radius: 5px;
+        font-size: 30px;
+        background-color: #e5e8ed;
+        color: #343a40;
+        border: 2px solid #343a40;
         margin: 5% 0% 0% 17%;
       }
     }

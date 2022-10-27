@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const AboutMeStyle = styled.div`
   @media (max-width: 600px) {
     .main_aboutme_section {
-      height: 30rem;
       padding: 10% 10% 0% 10%;
     }
 
@@ -29,12 +28,12 @@ export const AboutMeStyle = styled.div`
     .main_abount_sentence,
     .main_about_second_sentence,
     .main_about_third_sentence {
-      font-size: 1rem;
+      font-size: 16px;
       padding-left: 0%;
     }
 
     .main_about_h2 {
-      font-size: 1.3rem;
+      font-size: 25px;
     }
 
     .main_about_h2:after {
@@ -52,8 +51,7 @@ export const AboutMeStyle = styled.div`
     }
 
     .main_about_third_button {
-      width: 8rem;
-      padding: 0.2rem 0.1rem;
+      padding: 10px 10px;
       position: relative;
       overflow: hidden;
       border: 0;
@@ -63,8 +61,7 @@ export const AboutMeStyle = styled.div`
       background-color: #e5e8ed;
       color: #343a40;
       border: 2px solid #343a40;
-      font-size: 0.5rem;
-      margin-left: 5%;
+      font-size: 16px;
     }
   }
 
@@ -118,6 +115,7 @@ export const AboutMeStyle = styled.div`
     // Third container
 
     .main_about_third_button {
+      margin-left: 20rem;
       cursor: pointer;
       width: 10rem;
       padding: 0.2rem 0.5rem;
@@ -201,10 +199,10 @@ export const AboutMeStyle = styled.div`
     }
 
     .main_about_third_button {
+      margin-left: 20rem;
       cursor: pointer;
-      width: 11rem;
-      padding: 0.2rem 1rem;
-      position: relative;
+      width: 15rem;
+      padding: 1rem 1rem;
       overflow: hidden;
       border: 0;
       cursor: pointer;
@@ -213,7 +211,7 @@ export const AboutMeStyle = styled.div`
       background-color: #e5e8ed;
       color: #343a40;
       border: 2px solid #343a40;
-      font-size: 0.8rem;
+      font-size: 20px;
     }
 
     .main_about_third_button:hover {

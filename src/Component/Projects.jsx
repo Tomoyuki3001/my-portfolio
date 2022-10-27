@@ -20,8 +20,11 @@ export default function Projects() {
               with the necessary regelialia. It is a paradisematic country.
             </p>
             <p className="main_project_sentence">Usage :</p>
-            <a href="#">Git Hub</a> <br />
-            <a href="#">Go page</a>
+            <span className="main_project_sentence">
+              <a href="#">GitHub</a>
+              <span> / </span>
+              <a href="#">Go page</a>
+            </span>
           </div>
         </div>
         <div class="main_project_container">
@@ -39,8 +42,11 @@ export default function Projects() {
               with the necessary regelialia. It is a paradisematic country.
             </p>
             <p className="main_project_sentence">Usage :</p>
-            <a href="#">Git Hub</a> <br />
-            <a href="#">Go page</a>
+            <span className="main_project_sentence">
+              <a href="#">GitHub</a>
+              <span> / </span>
+              <a href="#">Go page</a>
+            </span>
           </div>
         </div>
         <div class="main_project_container">
@@ -58,8 +64,11 @@ export default function Projects() {
               with the necessary regelialia. It is a paradisematic country.
             </p>
             <p className="main_project_sentence">Usage :</p>
-            <a href="#">Git Hub</a> <br />
-            <a href="#">Go page</a>
+            <span className="main_project_sentence">
+              <a href="#">GitHub</a>
+              <span> / </span>
+              <a href="#">Go page</a>
+            </span>
           </div>
         </div>
       </div>

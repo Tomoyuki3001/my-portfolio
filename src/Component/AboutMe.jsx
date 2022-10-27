@@ -73,9 +73,6 @@ export default function AboutMe() {
             Those times make me feel good and change my mind.
           </p>
           <div className="main_about_button_container">
-            <span className="main_about_third_sentence">
-              Click it to see photos →{"  "}
-            </span>
             <button
               onClick={() => setShow(true)}
               className="main_about_third_button"

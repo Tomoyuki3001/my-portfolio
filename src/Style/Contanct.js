@@ -4,12 +4,30 @@ export const ContactStyle = styled.div`
   @media (max-width: 600px) {
     .contact_container {
       padding: 0% 10%;
-      height: 30rem;
       margin-top: 10%;
     }
 
     .main_contact_header_h2 {
-      font-size: 2rem;
+      font-size: 20px;
+    }
+
+    .nav_footer_container {
+      display: flex;
+      justify-content: space-around;
+      margin: 20% 0% 10% 0%;
+    }
+
+    .nav_footer_list {
+      list-style: none;
+      width: 30%;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .nav_icon {
+      width: 1.5rem;
+      height: 1.5rem;
     }
   }
 
@@ -32,6 +50,10 @@ export const ContactStyle = styled.div`
       font-size: 0.8rem;
       margin-top: 2rem;
     }
+
+    .nav_footer {
+      display: none;
+    }
   }
 
   @media (min-width: 1020px) {
@@ -52,6 +74,10 @@ export const ContactStyle = styled.div`
     .main_contact_address_part {
       font-size: 1.5em;
       margin-top: 2rem;
+    }
+
+    .nav_footer {
+      display: none;
     }
   }
 `;

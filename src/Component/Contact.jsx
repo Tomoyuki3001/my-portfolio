@@ -1,6 +1,7 @@
 import React from "react";
 import { ContactStyle } from "../Style/Contanct";
 import MailForm from "./MailForm";
+import { Icon } from "@iconify/react";
 
 export default function Contact() {
   return (
@@ -29,12 +30,46 @@ export default function Contact() {
             <div className="main_contact_address_part">
               <p>
                 <span>Website : </span>{" "}
-                <a href="https://github.com/Tomoyuki3001">Git Hub</a>
+                <a href="https://github.com/Tomoyuki3001">GitHub</a>
               </p>
             </div>
           </div>
         </div>
         <MailForm />
+        <div class="nav_footer">
+          <ul className="nav_footer_container">
+            <li className="nav_footer_list">
+              <a href="https://twitter.com/yk_english_jp" target="_blank">
+                <Icon
+                  icon="akar-icons:twitter-fill"
+                  color="#edeae5"
+                  className="nav_icon"
+                />
+              </a>
+            </li>
+            <li className="nav_footer_list">
+              <a href="https://github.com/Tomoyuki3001" target="_blank">
+                <Icon
+                  icon="akar-icons:github-fill"
+                  color="#edeae5"
+                  className="nav_icon"
+                />
+              </a>
+            </li>
+            <li className="nav_footer_list">
+              <a
+                href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
+                target="_blank"
+              >
+                <Icon
+                  icon="akar-icons:linkedin-box-fill"
+                  color="#edeae5"
+                  className="nav_icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </ContactStyle>
   );

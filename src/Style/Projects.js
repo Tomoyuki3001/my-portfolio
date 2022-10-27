@@ -3,17 +3,25 @@ import styled from "styled-components";
 export const ProjectsStyle = styled.div`
   @media (max-width: 600px) {
     .main_project_section {
-      height: 95rem;
       padding: 0%;
-      margin-top: 0%;
+      margin-top: 20%;
     }
     .main_project_container {
       padding: 0% 10%;
-      margin: 15% 0% 0% 0%;
+      margin: 20% 0%;
     }
 
     .project_images {
       width: 100%;
+    }
+
+    .main_project_h2 {
+      padding: 3% 0%;
+    }
+
+    .main_project_sentence {
+      font-size: 16px;
+      padding: 3% 0%;
     }
   }
 

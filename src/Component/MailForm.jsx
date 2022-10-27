@@ -39,7 +39,14 @@ const Contact = () => {
         <label>Message</label>
         <textarea name="message" className="form_input" />
         <div className="mail_button">
-          <button type="submit">Send</button>
+          <button
+            type="submit"
+            onClick={() => {
+              alert("success!!");
+            }}
+          >
+            Send
+          </button>
         </div>
       </form>
     </StyledContactForm>
@@ -172,6 +179,11 @@ const StyledContactForm = styled.div`
         border: 2px solid #343a40;
         margin: 5% 0% 0% 17%;
         font-size: 24px;
+      }
+      button:hover {
+        color: #ffffff;
+        background-color: #343a40;
+        border: 2px solid #ffffff;
       }
     }
   }

@@ -199,10 +199,10 @@ export const AboutMeStyle = styled.div`
     }
 
     .main_about_third_button {
-      margin-left: 20rem;
+      margin-left: 30rem;
       cursor: pointer;
       width: 15rem;
-      padding: 1rem 1rem;
+      padding: 1rem;
       overflow: hidden;
       border: 0;
       cursor: pointer;

@@ -69,8 +69,8 @@ export default function AboutMe() {
         <div className="main_about_photoes_container">
           <h2 className="main_about_h2">Myself</h2>
           <p className="main_about_third_sentence">
-            I like playing tennis, taking photos, and doing some activities.
-            Those times make me feel good and change my mind.
+            I like playing tennis, taking photos, and doing some physical
+            activities. Those times make me feel good and change my mind.
           </p>
           <div className="main_about_button_container">
             <button

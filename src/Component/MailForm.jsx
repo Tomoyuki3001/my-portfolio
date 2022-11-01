@@ -42,7 +42,7 @@ const Contact = () => {
           <button
             type="submit"
             onClick={() => {
-              alert("success!!");
+              alert("Thank you for sending us e-mail!");
             }}
           >
             Send

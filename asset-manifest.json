@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Tomoyuki3001/my-portfolio.git/static/css/main.03b1b8da.css",
-    "main.js": "/Tomoyuki3001/my-portfolio.git/static/js/main.205aac82.js",
-    "index.html": "/Tomoyuki3001/my-portfolio.git/index.html",
-    "main.03b1b8da.css.map": "/Tomoyuki3001/my-portfolio.git/static/css/main.03b1b8da.css.map",
-    "main.205aac82.js.map": "/Tomoyuki3001/my-portfolio.git/static/js/main.205aac82.js.map"
+    "main.css": "/my-portfolio/static/css/main.03b1b8da.css",
+    "main.js": "/my-portfolio/static/js/main.f38b9ece.js",
+    "index.html": "/my-portfolio/index.html",
+    "main.03b1b8da.css.map": "/my-portfolio/static/css/main.03b1b8da.css.map",
+    "main.f38b9ece.js.map": "/my-portfolio/static/js/main.f38b9ece.js.map"
   },
   "entrypoints": [
     "static/css/main.03b1b8da.css",
-    "static/js/main.205aac82.js"
+    "static/js/main.f38b9ece.js"
   ]
 }

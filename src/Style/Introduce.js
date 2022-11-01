@@ -26,7 +26,7 @@ export const IntroduceStyle = styled.div`
     }
 
     .main_self_introduce_sentence {
-      padding: 0% 5%;
+      padding: 0% 10%;
       font-size: 16px;
       background-color: rgba(255, 255, 255, 0.35);
     }

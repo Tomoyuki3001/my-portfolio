@@ -4,7 +4,6 @@ export const MainStyle = styled.div`
   @media (max-width: 600px) {
     .main_section {
       width: 100%;
-      margin-left: 0%;
       background-color: #e5e8ed;
     }
   }

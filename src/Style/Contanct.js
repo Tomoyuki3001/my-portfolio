@@ -34,7 +34,7 @@ export const ContactStyle = styled.div`
   @media (min-width: 601px) and (max-width: 1019px) {
     .contact_container {
       display: flex;
-      padding: 0% 5% 0% 5%;
+      padding: 0% 5%;
     }
     .main_contact_section {
       width: 40%;
@@ -42,12 +42,12 @@ export const ContactStyle = styled.div`
     }
 
     .main_contact_header_h2 {
-      font-size: 1.2rem;
+      font-size: 25px;
       margin: 10% 0% 5% 0%;
     }
 
     .main_contact_address_part {
-      font-size: 0.8rem;
+      font-size: 20px;
       margin-top: 2rem;
     }
 

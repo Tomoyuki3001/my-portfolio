@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="main_contact_section">
           <div className="main_contact_container">
             <div className="main_contact_header">
-              <h2 className="main_contact_header_h2">Contact Information</h2>
+              <h2 className="main_contact_header_h2">Contact information</h2>
             </div>
             <div className="main_contact_address_part">
               <p>

@@ -45,7 +45,7 @@ const Contact = () => {
               alert("Thank you for sending us e-mail!");
             }}
           >
-            Send
+            SEND
           </button>
         </div>
       </form>

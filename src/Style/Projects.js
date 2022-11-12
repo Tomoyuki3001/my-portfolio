@@ -70,11 +70,12 @@ export const ProjectsStyle = styled.div`
       display: flex;
       flex-flow: column;
       justify-content: space-around;
-      margin-top: 5%;
+      margin: 15vh 0vh;
     }
 
     .main_project_container {
       display: flex;
+      margin: 2.5vh 0vh;
     }
 
     .main_project_images {

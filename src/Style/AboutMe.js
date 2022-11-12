@@ -9,7 +9,8 @@ export const AboutMeStyle = styled.div`
     .main_about_learn_container,
     .main_about_career_container,
     .main_about_photoes_container {
-      margin-bottom: 10%;
+      padding: 5% 0%;
+      text-align: center;
     }
     .main_about_icons {
       display: flex;
@@ -29,18 +30,13 @@ export const AboutMeStyle = styled.div`
     .main_about_second_sentence,
     .main_about_third_sentence {
       font-size: 16px;
-      padding-left: 0%;
+      margin: 2.5% 0% 0% 0%;
     }
 
     .main_about_h2 {
       font-size: 25px;
-    }
-
-    .main_about_h2:after {
-      border-top: 2px solid;
-      content: "";
-      width: 5rem;
-      margin-left: 1rem;
+      border-bottom: solid 2px #343a40;
+      display: inline-block;
     }
 
     .main_about_button_container {
@@ -67,36 +63,27 @@ export const AboutMeStyle = styled.div`
 
   @media (min-width: 601px) and (max-width: 1019px) {
     .main_aboutme_section {
-      height: 35rem;
-      padding: 10% 10% 0% 10%;
+      padding: 2.5% 15%;
     }
-
-    // First container
 
     .main_about_learn_container,
     .main_about_career_container,
     .main_about_photoes_container {
       padding: 5% 0%;
+      text-align: center;
     }
 
     .main_about_h2 {
-      display: flex;
-      align-items: center;
-      font-size: 1.2rem;
+      font-size: 25px;
+      border-bottom: solid 2px #343a40;
+      display: inline-block;
     }
 
     .main_abount_sentence,
     .main_about_second_sentence,
     .main_about_third_sentence {
-      font-size: 1rem;
-      padding-left: 3%;
-    }
-
-    .main_about_h2:after {
-      border-top: 2px solid;
-      content: "";
-      width: 20rem;
-      margin-left: 1rem;
+      font-size: 22px;
+      margin: 2.5% 0% 0% 0%;
     }
 
     .main_about_icons {
@@ -112,13 +99,11 @@ export const AboutMeStyle = styled.div`
       height: 2rem;
     }
 
-    // Third container
-
     .main_about_third_button {
-      margin-left: 20rem;
+      margin-top: 5%;
       cursor: pointer;
-      width: 10rem;
-      padding: 0.2rem 0.5rem;
+      width: 15rem;
+      padding: 0.5rem 0.5rem;
       position: relative;
       overflow: hidden;
       border: 0;
@@ -128,7 +113,7 @@ export const AboutMeStyle = styled.div`
       background-color: #e5e8ed;
       color: #343a40;
       border: 2px solid #343a40;
-      font-size: 0.7rem;
+      font-size: 15px;
     }
 
     .main_about_third_button:hover {
@@ -140,41 +125,34 @@ export const AboutMeStyle = styled.div`
 
   @media (min-width: 1020px) {
     .main_aboutme_section {
-      height: 55rem;
-      padding: 0% 10%;
+      padding: 0% 15%;
       margin-top: 2%;
     }
-
-    // First container
 
     .main_about_learn_container,
     .main_about_career_container,
     .main_about_photoes_container {
       padding: 5% 0%;
+      text-align: center;
+      font-size: 20px;
     }
 
     .main_about_h2 {
-      display: flex;
-      align-items: center;
-      font-size: 2em;
+      font-size: 30px;
+      border-bottom: solid 3px #343a40;
+      display: inline-block;
     }
 
     .main_abount_sentence,
     .main_about_second_sentence,
     .main_about_third_sentence {
-      font-size: 1.5em;
-      padding-left: 3%;
-    }
-
-    .main_about_h2:after {
-      border-top: 2px solid;
-      content: "";
-      width: 40rem;
-      margin-left: 1em;
+      margin: 2.5% 0% 0% 0%;
+      font-size: 30px;
     }
 
     .main_about_icons {
       display: flex;
+      justify-content: center;
     }
 
     .main_about_icon {
@@ -186,20 +164,8 @@ export const AboutMeStyle = styled.div`
       height: 4rem;
     }
 
-    // Second container
-
-    .main_about_career_container {
-      padding-left: 10%;
-    }
-
-    // Third container
-
-    .main_about_photoes_container {
-      padding-left: 20%;
-    }
-
     .main_about_third_button {
-      margin-left: 30rem;
+      margin: 5% 0%;
       cursor: pointer;
       width: 15rem;
       padding: 1rem;

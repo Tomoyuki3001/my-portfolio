@@ -41,12 +41,12 @@ export default function Projects() {
           <div class="main_project_images">
             <img
               className="project_images"
-              src={`${process.env.PUBLIC_URL}/image_project_cloned.png`}
+              src={`${process.env.PUBLIC_URL}/image_project_countries.png`}
               alt=""
             />
           </div>
           <div class="main_project_detail_container">
-            <h2 className="main_project_h2">The cloend website</h2>
+            <h2 className="main_project_h2">The searching countries</h2>
             <p className="main_project_sentence">
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia. It is a paradisematic country.
@@ -54,14 +54,14 @@ export default function Projects() {
             <p className="main_project_sentence">Usage : HTML/CSS/SCSS</p>
             <span className="main_project_sentence">
               <a
-                href="https://github.com/Tomoyuki3001/cloning_websites"
+                href="https://github.com/Tomoyuki3001/final-project-webdev1-boilerplate"
                 target="_blank"
               >
                 GitHub
               </a>
               <span> / </span>
               <a
-                href="https://tomoyuki3001.github.io/cloning_websites/"
+                href="https://final-web-assignments.herokuapp.com/"
                 target="_blank"
               >
                 Go page
@@ -73,25 +73,59 @@ export default function Projects() {
           <div class="main_project_images">
             <img
               className="project_images"
-              src={`${process.env.PUBLIC_URL}/image_project_wheather.png`}
+              src={`${process.env.PUBLIC_URL}/image_tracker.png`}
               alt=""
             />
           </div>
           <div class="main_project_detail_container">
-            <h2 className="main_project_h2">The wheather app</h2>
+            <h2 className="main_project_h2">The tracker app</h2>
             <p className="main_project_sentence">
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia. It is a paradisematic country.
             </p>
             <p className="main_project_sentence">
-              Usage : HTML/CSS/SCSS/JavaScript
+              Usage : HTML/CSS/SCSS/JavaScript/React/Node.js
             </p>
             <span className="main_project_sentence">
-              <a href="https://github.com/Tomoyuki3001/weatherapp_midterm">
+              <a
+                href="https://github.com/Tomoyuki3001/my-trakr-react"
+                target="_blank"
+              >
                 GitHub
               </a>
               <span> / </span>
-              <a href="https://tomoyuki3001.github.io/weatherapp_midterm/">
+              <a href="https://my-tracker-1130.herokuapp.com/" target="_blank">
+                Go page
+              </a>
+            </span>
+          </div>
+        </div>
+        <div class="main_project_container">
+          <div class="main_project_images">
+            <img
+              className="project_images"
+              src={`${process.env.PUBLIC_URL}/image_twoot.png`}
+              alt=""
+            />
+          </div>
+          <div class="main_project_detail_container">
+            <h2 className="main_project_h2">The twoot app</h2>
+            <p className="main_project_sentence">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country.
+            </p>
+            <p className="main_project_sentence">
+              Usage : HTML/CSS/SCSS/JavaScript/React/Node.js
+            </p>
+            <span className="main_project_sentence">
+              <a
+                href="https://github.com/Tomoyuki3001/mid-term-twootr"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <span> / </span>
+              <a href="https://twoot01.herokuapp.com/" target="_blank">
                 Go page
               </a>
             </span>
@@ -115,11 +149,17 @@ export default function Projects() {
               Usage : HTML/CSS/SCSS/JavaScript
             </p>
             <span className="main_project_sentence">
-              <a href="https://github.com/Tomoyuki3001/weatherapp_midterm">
+              <a
+                href="https://github.com/Tomoyuki3001/weatherapp_midterm"
+                target="_blank"
+              >
                 GitHub
               </a>
               <span> / </span>
-              <a href="https://tomoyuki3001.github.io/weatherapp_midterm/">
+              <a
+                href="https://tomoyuki3001.github.io/weatherapp_midterm/"
+                target="_blank"
+              >
                 Go page
               </a>
             </span>

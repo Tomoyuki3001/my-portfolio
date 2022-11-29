@@ -1,12 +1,17 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 
 const Contact = () => {
   const form = useRef();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [text, setText] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log("check event", form);
 
     emailjs
       .sendForm(
@@ -31,13 +36,28 @@ const Contact = () => {
     <StyledContactForm>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name="user_name" className="form_input" />
+        <input
+          type="text"
+          name="user_name"
+          className="form_input"
+          value={name}
+        />
         <label>Email</label>
-        <input type="email" name="user_email" className="form_input" />
+        <input
+          type="email"
+          name="user_email"
+          className="form_input"
+          value={email}
+        />
         <label>Subject</label>
-        <input type="subject" name="user_subject" className="form_input" />
+        <input
+          type="subject"
+          name="user_subject"
+          className="form_input"
+          value={subject}
+        />
         <label>Message</label>
-        <textarea name="message" className="form_input" />
+        <textarea name="message" className="form_input" value={text} />
         <div className="mail_button">
           <button
             type="submit"

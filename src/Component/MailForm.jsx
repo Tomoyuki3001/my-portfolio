@@ -124,7 +124,7 @@ const StyledContactForm = styled.div`
     form {
       width: 100%;
       font-size: 1rem;
-      margin: 20% 10% 15% 10%;
+      margin-top: 20%;
       input {
         width: 100%;
         height: 1rem;
@@ -161,11 +161,12 @@ const StyledContactForm = styled.div`
   }
 
   @media (min-width: 1020px) {
-    width: 50%;
+    width: 40%;
+    padding-right: 15%;
     form {
       width: 100%;
       font-size: 1.5rem;
-      margin: 20% 10% 15% 10%;
+      margin-top: 30%;
       input {
         width: 100%;
         height: 35px;

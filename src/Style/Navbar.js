@@ -87,6 +87,13 @@ export const NavStyle = styled.div`
       position: fixed;
     }
 
+    .nav_list_container {
+      display: flex;
+      font-size: 18px;
+      margin: 0%;
+      width: 100%;
+    }
+
     .nav_section_h1 {
       align-items: center;
       justify-content: center;
@@ -96,21 +103,12 @@ export const NavStyle = styled.div`
       display: none;
     }
 
-    .nav_list_container {
-      display: flex;
-      justify-content: space-around;
-      font-size: 18px;
-      margin: 0%;
-      width: 100%;
-      height: 100%;
-    }
-
     .nav_list_section {
       display: flex;
       align-items: center;
       justify-content: center;
+      justify-content: space-around;
       margin: 0%;
-      width: 100%;
     }
 
     .nav_footer {
@@ -148,7 +146,7 @@ export const NavStyle = styled.div`
     }
   }
 
-  @media (min-width: 1020px) {
+  @media (min-width: 1021px) {
     .nav_section {
       background-color: #a0bdcc;
       position: fixed;

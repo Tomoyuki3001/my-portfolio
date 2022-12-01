@@ -26,6 +26,7 @@ export default function Projects() {
               <a
                 href="https://github.com/Tomoyuki3001/finalgame"
                 target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -33,6 +34,7 @@ export default function Projects() {
               <a
                 href="https://tomoyuki3001.github.io/finalgame/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Go to the page
               </a>
@@ -63,6 +65,7 @@ export default function Projects() {
               <a
                 href="https://github.com/Tomoyuki3001/final-project-webdev1-boilerplate"
                 target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -70,6 +73,7 @@ export default function Projects() {
               <a
                 href="https://final-web-assignments.herokuapp.com/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Go to the page
               </a>
@@ -99,11 +103,16 @@ export default function Projects() {
               <a
                 href="https://github.com/Tomoyuki3001/my-trakr-react"
                 target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
               <span> / </span>
-              <a href="https://my-tracker-1130.herokuapp.com/" target="_blank">
+              <a
+                href="https://my-tracker-1130.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Go to the page
               </a>
             </span>
@@ -131,11 +140,16 @@ export default function Projects() {
               <a
                 href="https://github.com/Tomoyuki3001/mid-term-twootr"
                 target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
               <span> / </span>
-              <a href="https://twoot01.herokuapp.com/" target="_blank">
+              <a
+                href="https://twoot01.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Go to the page
               </a>
             </span>
@@ -165,6 +179,7 @@ export default function Projects() {
               <a
                 href="https://github.com/Tomoyuki3001/weatherapp_midterm"
                 target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -172,6 +187,7 @@ export default function Projects() {
               <a
                 href="https://tomoyuki3001.github.io/weatherapp_midterm/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Go to the page
               </a>

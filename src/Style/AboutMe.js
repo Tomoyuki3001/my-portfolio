@@ -125,8 +125,7 @@ export const AboutMeStyle = styled.div`
 
   @media (min-width: 1020px) {
     .main_aboutme_section {
-      padding: 0% 15%;
-      margin-top: 2%;
+      padding: 5% 15%;
     }
 
     .main_about_learn_container,

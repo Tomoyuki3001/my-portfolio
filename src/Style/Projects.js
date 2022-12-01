@@ -64,18 +64,16 @@ export const ProjectsStyle = styled.div`
 
   @media (min-width: 1020px) {
     .main_project_section {
-      height: 70rem;
       background-color: #e5e8ed;
-      padding: 0% 10%;
+      padding: 2% 10%;
       display: flex;
       flex-flow: column;
       justify-content: space-around;
-      margin: 15vh 0vh;
     }
 
     .main_project_container {
       display: flex;
-      margin: 2.5vh 0vh;
+      padding: 5% 0%;
     }
 
     .main_project_images {
@@ -93,11 +91,11 @@ export const ProjectsStyle = styled.div`
     }
 
     .main_project_h2 {
-      font-size: 2em;
+      font-size: 30px;
     }
 
     .main_project_sentence {
-      font-size: 1.3em;
+      font-size: 24px;
     }
   }
 `;

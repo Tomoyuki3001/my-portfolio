@@ -48,7 +48,11 @@ export default function Navbar() {
         <div class="nav_footer">
           <ul className="nav_footer_container">
             <li className="nav_footer_list">
-              <a href="https://twitter.com/yk_english_jp" target="_blank">
+              <a
+                href="https://twitter.com/yk_english_jp"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Icon
                   icon="akar-icons:twitter-fill"
                   color="#edeae5"
@@ -57,7 +61,11 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav_footer_list">
-              <a href="https://github.com/Tomoyuki3001" target="_blank">
+              <a
+                href="https://github.com/Tomoyuki3001"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Icon
                   icon="akar-icons:github-fill"
                   color="#edeae5"
@@ -69,6 +77,7 @@ export default function Navbar() {
               <a
                 href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Icon
                   icon="akar-icons:linkedin-box-fill"

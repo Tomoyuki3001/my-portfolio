@@ -15,7 +15,7 @@ export const MainStyle = styled.div`
     }
   }
 
-  @media (min-width: 1020px) {
+  @media (min-width: 1021px) {
     .main_section {
       margin-left: 25%;
       width: 75%;

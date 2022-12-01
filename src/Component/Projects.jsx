@@ -152,11 +152,11 @@ export default function Projects() {
           <div class="main_project_detail_container">
             <h2 className="main_project_h2">The wheather app</h2>
             <p className="main_project_sentence">
-              n this weather app, you can get the weather details of a
-              particular city by entering the city name or you can also get your
-              current location weather details by clicking on the “Get Device
-              Location” button. If you entered an invalid city name then there
-              is shown an error message.
+              This weather app, you can get the weather details of a particular
+              city by entering the city name or you can also get your current
+              location weather details by clicking on the “Get Device Location”
+              button. If you entered an invalid city name then there is shown an
+              error message.
             </p>
             <p className="main_project_sentence">
               Usage : HTML/CSS/SCSS/JavaScript

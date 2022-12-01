@@ -164,6 +164,30 @@ export const AboutMeStyle = styled.div`
       height: 4rem;
     }
 
+    .main_about_resume_button {
+      margin: 5% 0%;
+      cursor: pointer;
+      width: 20rem;
+      padding: 1rem;
+      overflow: hidden;
+      border: 0;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background-color: #e5e8ed;
+      color: #343a40;
+      border: 2px solid #343a40;
+      font-size: 20px;
+    }
+
+    .main_about_resume_button:hover {
+      background-color: rgb(52, 58, 64, 0.3);
+    }
+
+    .main_about_resume_link {
+      text-decoration: none;
+    }
+
     .main_about_third_button {
       margin: 5% 0%;
       cursor: pointer;

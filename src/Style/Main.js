@@ -10,8 +10,7 @@ export const MainStyle = styled.div`
 
   @media (min-width: 601px) and (max-width: 1019px) {
     .main_section {
-      margin-left: 20%;
-      width: 80%;
+      width: 100%;
       background-color: #e5e8ed;
     }
   }

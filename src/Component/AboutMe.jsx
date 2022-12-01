@@ -57,20 +57,29 @@ export default function AboutMe() {
               <Icon icon="bxl:firebase" color="#303033" className="main_icon" />
             </div>
           </div>
+          <button className="main_about_resume_button">
+            <a
+              className="main_about_resume_link"
+              href={`${process.env.PUBLIC_URL}/Tomoyuki_Fujii.pdf`}
+              download="TomoyukiFujii.pdf"
+            >
+              Download Resume
+            </a>
+          </button>
         </div>
         <div className="main_about_career_container">
           <h2 className="main_about_h2">Career</h2>
           <p className="main_about_second_sentence">
-            Cornerstone International (CICCC) - December 2022 <br /> Web
-            development co-op diploma Tokai University - March 2018 <br />{" "}
+            Cornerstone International (CICCC) - December 2022 <br />
+            Web development co-op diploma Tokai University - March 2018 <br />
             Department of Political Science and Economics(SPEM)
           </p>
         </div>
         <div className="main_about_photoes_container">
           <h2 className="main_about_h2">Myself</h2>
           <p className="main_about_third_sentence">
-            I like playing tennis, taking photos, and doing some physical
-            activities. Those times make me feel good and change my mind.
+            I like playing tennis, taking photos, and activities. Those times
+            make me feel good and refresh my mind.
           </p>
           <div className="main_about_button_container">
             <button

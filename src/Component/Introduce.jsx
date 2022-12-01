@@ -16,8 +16,8 @@ export default function Introduce() {
             <h1 className="main_self_introduce_name_h1">Tomoyuki Fujii</h1>
           </div>
           <span className="main_self_introduce_sentence">
-            I’m a junior front-end developer based in Vancouver. I have learned
-            those languages for 1 year.
+            I’m a junior front-end developer based in Vancouver. <br />I have
+            learned those languages for 1 year.
           </span>
         </div>
       </div>

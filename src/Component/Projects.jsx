@@ -14,12 +14,14 @@ export default function Projects() {
             />
           </div>
           <div class="main_project_detail_container">
-            <h2 className="main_project_h2">The trump game</h2>
+            <h2 className="main_project_h2">The matching game</h2>
             <p className="main_project_sentence">
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia. It is a paradisematic country.
+              Memory card is a simple matching cards game in which all the cards
+              are flipped backside on a surface, and two cards are flipped face
+              up over each turn. The objective of this game is to match all the
+              pairs of cards.
             </p>
-            <p className="main_project_sentence">Usage : HTML/CSS</p>
+            <p className="main_project_sentence">Usage : HTML/CSS/JavaScript</p>
             <span className="main_project_sentence">
               <a
                 href="https://github.com/Tomoyuki3001/finalgame"
@@ -32,7 +34,7 @@ export default function Projects() {
                 href="https://tomoyuki3001.github.io/finalgame/"
                 target="_blank"
               >
-                Go page
+                Go to the page
               </a>
             </span>
           </div>
@@ -46,12 +48,17 @@ export default function Projects() {
             />
           </div>
           <div class="main_project_detail_container">
-            <h2 className="main_project_h2">The searching countries</h2>
+            <h2 className="main_project_h2">The country guide app</h2>
             <p className="main_project_sentence">
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia. It is a paradisematic country.
+              This app consists of a search bar. The user enters the name of the
+              country to be searched for in this input field and clicks on the
+              search button. On hitting search, we display a list of common
+              information about that country including an image of the country’s
+              flag.
             </p>
-            <p className="main_project_sentence">Usage : HTML/CSS/SCSS</p>
+            <p className="main_project_sentence">
+              Usage : HTML/CSS/SCSS/JavaScript
+            </p>
             <span className="main_project_sentence">
               <a
                 href="https://github.com/Tomoyuki3001/final-project-webdev1-boilerplate"
@@ -64,7 +71,7 @@ export default function Projects() {
                 href="https://final-web-assignments.herokuapp.com/"
                 target="_blank"
               >
-                Go page
+                Go to the page
               </a>
             </span>
           </div>
@@ -78,10 +85,12 @@ export default function Projects() {
             />
           </div>
           <div class="main_project_detail_container">
-            <h2 className="main_project_h2">The tracker app</h2>
+            <h2 className="main_project_h2">The bank tracker app</h2>
             <p className="main_project_sentence">
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia. It is a paradisematic country.
+              An expense tracker app allows you to track and categorize your
+              spending. Your financial health will improve by keeping a daily
+              record of your expenses by keeping track of receipts, bills, and
+              other outgoing costs.(Mobile size is still making)
             </p>
             <p className="main_project_sentence">
               Usage : HTML/CSS/SCSS/JavaScript/React/Node.js
@@ -95,7 +104,7 @@ export default function Projects() {
               </a>
               <span> / </span>
               <a href="https://my-tracker-1130.herokuapp.com/" target="_blank">
-                Go page
+                Go to the page
               </a>
             </span>
           </div>
@@ -111,8 +120,9 @@ export default function Projects() {
           <div class="main_project_detail_container">
             <h2 className="main_project_h2">The twoot app</h2>
             <p className="main_project_sentence">
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia. It is a paradisematic country.
+              Like Twitter, you can create accounts and posts and remember them,
+              with a limit of 140 characters, and you can see when a post was
+              created in the past.
             </p>
             <p className="main_project_sentence">
               Usage : HTML/CSS/SCSS/JavaScript/React/Node.js
@@ -126,7 +136,7 @@ export default function Projects() {
               </a>
               <span> / </span>
               <a href="https://twoot01.herokuapp.com/" target="_blank">
-                Go page
+                Go to the page
               </a>
             </span>
           </div>
@@ -142,8 +152,11 @@ export default function Projects() {
           <div class="main_project_detail_container">
             <h2 className="main_project_h2">The wheather app</h2>
             <p className="main_project_sentence">
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia. It is a paradisematic country.
+              n this weather app, you can get the weather details of a
+              particular city by entering the city name or you can also get your
+              current location weather details by clicking on the “Get Device
+              Location” button. If you entered an invalid city name then there
+              is shown an error message.
             </p>
             <p className="main_project_sentence">
               Usage : HTML/CSS/SCSS/JavaScript
@@ -160,7 +173,7 @@ export default function Projects() {
                 href="https://tomoyuki3001.github.io/weatherapp_midterm/"
                 target="_blank"
               >
-                Go page
+                Go to the page
               </a>
             </span>
           </div>

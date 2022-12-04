@@ -9,6 +9,19 @@ const Contact = () => {
   const [subject, setSubject] = useState("");
   const [text, setText] = useState("");
 
+  const handleChangeName = (event) => {
+    setName(event.target.value);
+  };
+  const handleChangeEmail = (event) => {
+    setEmail(event.target.value);
+  };
+  const handleChangeSubject = (event) => {
+    setSubject(event.target.value);
+  };
+  const handleChangeText = (event) => {
+    setText(event.target.value);
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
     console.log("check event", form);
@@ -41,6 +54,7 @@ const Contact = () => {
           name="user_name"
           className="form_input"
           value={name}
+          onChange={handleChangeName}
         />
         <label>Email</label>
         <input
@@ -48,6 +62,7 @@ const Contact = () => {
           name="user_email"
           className="form_input"
           value={email}
+          onChange={handleChangeEmail}
         />
         <label>Subject</label>
         <input
@@ -55,14 +70,24 @@ const Contact = () => {
           name="user_subject"
           className="form_input"
           value={subject}
+          onChange={handleChangeSubject}
         />
         <label>Message</label>
-        <textarea name="message" className="form_input" value={text} />
+        <textarea
+          name="message"
+          className="form_input"
+          value={text}
+          onChange={handleChangeText}
+        />
         <div className="mail_button">
           <button
             type="submit"
             onClick={() => {
               alert("Thank you for sending us e-mail!");
+              setName("");
+              setEmail("");
+              setSubject("");
+              setText("");
             }}
           >
             SEND
@@ -173,6 +198,7 @@ const StyledContactForm = styled.div`
         padding: 7px;
         outline: none;
         border: 1px solid rgb(133, 133, 133);
+        font-size: 20px;
         }
       }
       textarea {
@@ -184,6 +210,7 @@ const StyledContactForm = styled.div`
         padding: 7px;
         outline: none;
         border: 1px solid rgb(133, 133, 133);
+        font-size: 20px;
         }
       }
       label {

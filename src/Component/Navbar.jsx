@@ -11,7 +11,8 @@ export default function Navbar() {
           <div className="nav_section_h1">
             <h1>
               <AnchorLink href="#top" offset="40" className="nav_top_header">
-                Tomo.
+                Tomo's <br />
+                portfolio
               </AnchorLink>
             </h1>
           </div>
@@ -45,7 +46,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <div class="nav_footer">
+        <div className="nav_footer">
           <ul className="nav_footer_container">
             <li className="nav_footer_list">
               <a

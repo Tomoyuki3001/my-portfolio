@@ -13,7 +13,7 @@ export default function Projects() {
               alt=""
             />
           </div>
-          <div class="main_project_detail_container">
+          <div className="main_project_detail_container">
             <h2 className="main_project_h2">The matching game</h2>
             <p className="main_project_sentence">
               Memory card is a simple matching cards game in which all the cards
@@ -21,7 +21,9 @@ export default function Projects() {
               up over each turn. The objective of this game is to match all the
               pairs of cards.
             </p>
-            <p className="main_project_sentence">Usage : HTML/CSS/JavaScript</p>
+            <p className="main_project_sentence">
+              Technical Specifications: HTML/CSS/JavaScript
+            </p>
             <span className="main_project_sentence">
               <a
                 href="https://github.com/Tomoyuki3001/finalgame"
@@ -41,54 +43,15 @@ export default function Projects() {
             </span>
           </div>
         </div>
-        <div class="main_project_container">
-          <div class="main_project_images">
-            <img
-              className="project_images"
-              src={`${process.env.PUBLIC_URL}/image_project_countries.png`}
-              alt=""
-            />
-          </div>
-          <div class="main_project_detail_container">
-            <h2 className="main_project_h2">The country guide app</h2>
-            <p className="main_project_sentence">
-              This app consists of a search bar. The user enters the name of the
-              country to be searched for in this input field and clicks on the
-              search button. On hitting search, we display a list of common
-              information about that country including an image of the country’s
-              flag.
-            </p>
-            <p className="main_project_sentence">
-              Usage : HTML/CSS/SCSS/JavaScript
-            </p>
-            <span className="main_project_sentence">
-              <a
-                href="https://github.com/Tomoyuki3001/final-project-webdev1-boilerplate"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>
-              <span> / </span>
-              <a
-                href="https://final-web-assignments.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Go to the page
-              </a>
-            </span>
-          </div>
-        </div>
-        <div class="main_project_container">
-          <div class="main_project_images">
+        <div className="main_project_container">
+          <div className="main_project_images">
             <img
               className="project_images"
               src={`${process.env.PUBLIC_URL}/image_tracker.png`}
               alt=""
             />
           </div>
-          <div class="main_project_detail_container">
+          <div className="main_project_detail_container">
             <h2 className="main_project_h2">The bank tracker app</h2>
             <p className="main_project_sentence">
               An expense tracker app allows you to track and categorize your
@@ -97,7 +60,7 @@ export default function Projects() {
               other outgoing costs.(Mobile size is still making)
             </p>
             <p className="main_project_sentence">
-              Usage : HTML/CSS/SCSS/JavaScript/React/Node.js
+              Technical Specifications: HTML/CSS/SCSS/JavaScript/React/Node.js
             </p>
             <span className="main_project_sentence">
               <a
@@ -118,15 +81,15 @@ export default function Projects() {
             </span>
           </div>
         </div>
-        <div class="main_project_container">
-          <div class="main_project_images">
+        <div className="main_project_container">
+          <div className="main_project_images">
             <img
               className="project_images"
               src={`${process.env.PUBLIC_URL}/image_twoot.png`}
               alt=""
             />
           </div>
-          <div class="main_project_detail_container">
+          <div className="main_project_detail_container">
             <h2 className="main_project_h2">The twoot app</h2>
             <p className="main_project_sentence">
               Like Twitter, you can create accounts and posts and remember them,
@@ -134,7 +97,7 @@ export default function Projects() {
               created in the past.
             </p>
             <p className="main_project_sentence">
-              Usage : HTML/CSS/SCSS/JavaScript/React/Node.js
+              Technical Specifications: HTML/CSS/SCSS/JavaScript/React/Node.js
             </p>
             <span className="main_project_sentence">
               <a
@@ -155,29 +118,29 @@ export default function Projects() {
             </span>
           </div>
         </div>
-        <div class="main_project_container">
-          <div class="main_project_images">
+        <div className="main_project_container">
+          <div className="main_project_images">
             <img
               className="project_images"
-              src={`${process.env.PUBLIC_URL}/image_project_wheather.png`}
+              src={`${process.env.PUBLIC_URL}/image_project_countries.png`}
               alt=""
             />
           </div>
-          <div class="main_project_detail_container">
-            <h2 className="main_project_h2">The wheather app</h2>
+          <div className="main_project_detail_container">
+            <h2 className="main_project_h2">The country guide app</h2>
             <p className="main_project_sentence">
-              This weather app, you can get the weather details of a particular
-              city by entering the city name or you can also get your current
-              location weather details by clicking on the “Get Device Location”
-              button. If you entered an invalid city name then there is shown an
-              error message.
+              This app consists of a search bar. The user enters the name of the
+              country to be searched for in this input field and clicks on the
+              search button. On hitting search, we display a list of common
+              information about that country including an image of the country’s
+              flag.
             </p>
             <p className="main_project_sentence">
-              Usage : HTML/CSS/SCSS/JavaScript
+              Technical Specifications: HTML/CSS/SCSS/JavaScript
             </p>
             <span className="main_project_sentence">
               <a
-                href="https://github.com/Tomoyuki3001/weatherapp_midterm"
+                href="https://github.com/Tomoyuki3001/final-project-webdev1-boilerplate"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -185,7 +148,7 @@ export default function Projects() {
               </a>
               <span> / </span>
               <a
-                href="https://tomoyuki3001.github.io/weatherapp_midterm/"
+                href="https://final-web-assignments.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >

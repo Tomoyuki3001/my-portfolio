@@ -36,7 +36,7 @@ export default function Contact() {
           </div>
           <MailForm />
         </div>
-        <div class="mobile_footer">
+        <div className="mobile_footer">
           <ul className="mobile_footer_container">
             <li className="mobile_footer_list">
               <a

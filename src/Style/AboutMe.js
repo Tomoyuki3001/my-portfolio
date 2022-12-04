@@ -137,16 +137,21 @@ export const AboutMeStyle = styled.div`
     }
 
     .main_about_h2 {
-      font-size: 30px;
+      font-size: 35px;
       border-bottom: solid 3px #343a40;
       display: inline-block;
     }
 
-    .main_abount_sentence,
+    .main_about_sentence,
     .main_about_second_sentence,
     .main_about_third_sentence {
       margin: 2.5% 0% 0% 0%;
       font-size: 30px;
+    }
+
+    .main_second_sentence_header {
+      font-weight: bold;
+      font-size: 32px;
     }
 
     .main_about_icons {

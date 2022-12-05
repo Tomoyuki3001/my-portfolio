@@ -71,16 +71,16 @@ export default function AboutMe() {
           <h2 className="main_about_h2">Education</h2>
           <div className="main_about_second_sentence">
             <p className="main_about_second_sentence main_second_sentence_header">
-              Cornerstone International College (CICCC) - December 2022
+              Cornerstone International College - December 2022
             </p>{" "}
-            <span>Web development co-op diploma</span>
+            <span>Web Development Diploma</span>
             <br />
           </div>
           <div className="main_about_second_sentence">
             <p className="main_about_second_sentence main_second_sentence_header">
               Tokai University - March 2018
             </p>
-            <span>Bachelor of Political Science and Economics</span>
+            <span>Bachelor’s degree in Politic Science and Economics</span>
           </div>
         </div>
         <div className="main_about_photoes_container">
@@ -94,7 +94,7 @@ export default function AboutMe() {
               onClick={() => setShow(true)}
               className="main_about_third_button"
             >
-              Show my photoes
+              Show my photos
             </button>
             <Modal show={show} onClose={() => setShow(false)} />
           </div>

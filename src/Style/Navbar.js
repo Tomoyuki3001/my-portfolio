@@ -167,6 +167,7 @@ export const NavStyle = styled.div`
       font-weight: bold;
       display: inline-block;
       position: relative;
+      font-size: 60px;
     }
 
     .nav_inside_link:after {

@@ -73,7 +73,7 @@ export const ContactStyle = styled.div`
 
   @media (min-width: 1020px) {
     .contact_container {
-      margin: 0% 0% 10% 0%;
+      margin: 0% 5% 10% 5%;
     }
     .main_contact_address {
       padding: 5% 10%;
@@ -85,12 +85,12 @@ export const ContactStyle = styled.div`
     }
 
     .main_contact_header_h2 {
-      font-size: 2em;
+      font-size: 40px;
       margin: 10% 0% 5% 0%;
     }
 
     .main_contact_address_part {
-      font-size: 1.5em;
+      font-size: 30px;
       margin-top: 2rem;
     }
 

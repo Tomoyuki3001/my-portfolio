@@ -204,7 +204,7 @@ export const NavStyle = styled.div`
     }
 
     .nav_footer {
-      margin: 30% 0% 10% 0%;
+      margin: 20% 0% 10% 0%;
     }
 
     .nav_footer_container {
@@ -216,6 +216,29 @@ export const NavStyle = styled.div`
     .nav_icon {
       width: 2rem;
       height: 2rem;
+    }
+
+    .main_about_resume_button {
+      cursor: pointer;
+      width: 17rem;
+      padding: 1rem;
+      overflow: hidden;
+      border: 0;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background-color: #a0bdcc;
+      color: #343a40;
+      border: 2px solid #343a40;
+      font-size: 20px;
+    }
+
+    .main_about_resume_button:hover {
+      background-color: rgb(52, 58, 64, 0.3);
+    }
+
+    .main_about_resume_link {
+      text-decoration: none;
     }
   }
 `;

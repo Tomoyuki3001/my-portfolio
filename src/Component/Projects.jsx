@@ -64,7 +64,7 @@ export default function Projects() {
             </p>
             <span className="main_project_sentence">
               <a
-                href="https://github.com/Tomoyuki3001/my-trakr-react"
+                href="https://github.com/Tomoyuki3001/myTrakr-boilerplate"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -72,7 +72,7 @@ export default function Projects() {
               </a>
               <span> / </span>
               <a
-                href="https://my-tracker-1130.herokuapp.com/"
+                href="https://bank-tracker-apps.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -109,7 +109,7 @@ export default function Projects() {
               </a>
               <span> / </span>
               <a
-                href="https://twoot01.herokuapp.com/"
+                href="https://twoot-apps.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -148,7 +148,7 @@ export default function Projects() {
               </a>
               <span> / </span>
               <a
-                href="https://final-web-assignments.herokuapp.com/"
+                href="https://searching-countries.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -167,7 +167,7 @@ export const NavStyle = styled.div`
       font-weight: bold;
       display: inline-block;
       position: relative;
-      font-size: 60px;
+      font-size: 50px;
     }
 
     .nav_inside_link:after {
@@ -194,8 +194,7 @@ export const NavStyle = styled.div`
     }
 
     .nav_section_h1 {
-      margin: 20% 0% 20% 0%;
-      font-size: 2rem;
+      margin: 20% 0% 10% 0%;
     }
 
     .nav_list_section {

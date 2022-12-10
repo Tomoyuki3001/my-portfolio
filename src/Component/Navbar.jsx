@@ -45,9 +45,9 @@ export default function Navbar() {
               </AnchorLink>
             </li>
           </ul>
-          <button className="main_about_resume_button">
+          <button className="nav_about_resume_button">
             <a
-              className="main_about_resume_link"
+              className="nav_about_resume_link"
               href={`${process.env.PUBLIC_URL}/TomoyukiFujii.pdf`}
               download="TomoyukiFujii.pdf"
             >

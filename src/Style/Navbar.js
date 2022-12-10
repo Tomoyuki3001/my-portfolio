@@ -73,6 +73,10 @@ export const NavStyle = styled.div`
       margin: 0%;
       width: 100%;
     }
+
+    .nav_about_resume_button {
+      display: none;
+    }
   }
 
   @media (min-width: 601px) and (max-width: 1019px) {
@@ -143,6 +147,10 @@ export const NavStyle = styled.div`
       justify-content: space-around;
       margin: 0%;
       width: 100%;
+    }
+
+    .nav_about_resume_button {
+      display: none;
     }
   }
 
@@ -217,7 +225,7 @@ export const NavStyle = styled.div`
       height: 2rem;
     }
 
-    .main_about_resume_button {
+    .nav_about_resume_button {
       cursor: pointer;
       width: 17rem;
       padding: 1rem;
@@ -232,11 +240,11 @@ export const NavStyle = styled.div`
       font-size: 20px;
     }
 
-    .main_about_resume_button:hover {
+    .nav_about_resume_button:hover {
       background-color: rgb(52, 58, 64, 0.3);
     }
 
-    .main_about_resume_link {
+    .nav_about_resume_link {
       text-decoration: none;
     }
   }

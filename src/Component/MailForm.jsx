@@ -105,7 +105,7 @@ const StyledContactForm = styled.div`
   @media (max-width: 600px) {
     width: 100%;
     form {
-      margin: 10% 0%;
+      padding: 10% 0%;
       display: flex;
       flex-direction: column;
       justify-content: center;

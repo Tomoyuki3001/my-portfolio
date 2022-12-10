@@ -3,8 +3,11 @@ import styled from "styled-components";
 export const ContactStyle = styled.div`
   @media (max-width: 600px) {
     .contact_container {
-      padding: 0% 10%;
-      margin-top: 10%;
+      padding: 20% 10%;
+    }
+
+    main_contact_section {
+      padding: 0% 0% 10% 0%;
     }
 
     .main_contact_header_h2 {
@@ -14,7 +17,7 @@ export const ContactStyle = styled.div`
     .mobile_footer_container {
       display: flex;
       justify-content: space-around;
-      margin: 20% 0% 10% 0%;
+      padding: 10% 0%;
     }
 
     .mobile_footer_list {
@@ -25,9 +28,9 @@ export const ContactStyle = styled.div`
       text-align: center;
     }
 
-    .mobile_icon {
-      width: 1.5rem;
-      height: 1.5rem;
+    .mobile_nav_icon {
+      width: 30px;
+      height: 30px;
     }
   }
 

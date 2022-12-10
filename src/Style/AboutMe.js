@@ -14,11 +14,9 @@ export const AboutMeStyle = styled.div`
     }
     .main_about_icons {
       display: flex;
-      width: 1rem;
-    }
-
-    .main_about_icon {
-      margin: 3% 50%;
+      justify-content: space-around;
+      width: 100%;
+      padding: 0% 0% 10% 0%;
     }
 
     .main_icon {
@@ -46,7 +44,8 @@ export const AboutMeStyle = styled.div`
       justify-content: center;
     }
 
-    .main_about_third_button {
+    .main_about_third_button,
+    .main_about_resume_button {
       padding: 10px 10px;
       position: relative;
       overflow: hidden;
@@ -58,6 +57,10 @@ export const AboutMeStyle = styled.div`
       color: #343a40;
       border: 2px solid #343a40;
       font-size: 16px;
+    }
+
+    .main_about_resume_link {
+      text-decoration: none;
     }
   }
 

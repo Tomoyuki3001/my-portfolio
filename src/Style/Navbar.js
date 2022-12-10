@@ -5,8 +5,6 @@ export const NavStyle = styled.div`
     .nav_section {
       background-color: #a0bdcc;
       display: flex;
-      align-items: center;
-      justify-content: center;
       height: 60px;
       width: 100%;
       z-index: 10;
@@ -25,18 +23,14 @@ export const NavStyle = styled.div`
 
     .nav_list_container {
       display: flex;
-      justify-content: space-around;
-      font-size: 0.4rem;
       margin: 0%;
       width: 100%;
-      height: 100%;
     }
 
     .nav_list_section {
       display: flex;
+      justify-content: space-around;
       align-items: center;
-      justify-content: center;
-      margin: 0%;
       width: 100%;
     }
 
@@ -51,8 +45,7 @@ export const NavStyle = styled.div`
 
     .nav_footer_list {
       list-style: none;
-      width: 30%;
-      font-size: 16px;
+      font-size: 17px;
       font-weight: bold;
       text-align: center;
     }

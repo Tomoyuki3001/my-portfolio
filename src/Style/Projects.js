@@ -8,7 +8,7 @@ export const ProjectsStyle = styled.div`
     }
     .main_project_container {
       padding: 0% 10%;
-      margin: 20% 0%;
+      margin: 20% 0% 0% 0%;
     }
 
     .project_images {

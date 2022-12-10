@@ -24,8 +24,22 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log("check event", form);
-
+    if (name === "") {
+      alert("Please type name");
+      return;
+    }
+    if (email === "") {
+      alert("Please type email address");
+      return;
+    }
+    if (subject === "") {
+      alert("Please type subject");
+      return;
+    }
+    if (text === "") {
+      alert("Please type text");
+      return;
+    }
     emailjs
       .sendForm(
         "service_k9qfmdv",
@@ -36,13 +50,16 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent");
         },
         (error) => {
           console.log(error.text);
         }
       );
-    form.current.reset();
+    setName("");
+    setEmail("");
+    setSubject("");
+    setText("");
+    alert("Thank you for sending us e-mail!");
   };
 
   return (
@@ -80,16 +97,7 @@ const Contact = () => {
           onChange={handleChangeText}
         />
         <div className="mail_button">
-          <button
-            type="submit"
-            onClick={() => {
-              alert("Thank you for sending us e-mail!");
-              setName("");
-              setEmail("");
-              setSubject("");
-              setText("");
-            }}
-          >
+          <button type="submit" onClick={() => {}}>
             SEND
           </button>
         </div>

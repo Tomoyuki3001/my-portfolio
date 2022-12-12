@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="nav_list_container">
           <div className="nav_section_h1">
             <h1>
-              <AnchorLink href="#top" offset="40" className="nav_top_header">
+              <AnchorLink href="#top" className="nav_top_header">
                 Tomo's <br />
                 portfolio
               </AnchorLink>
@@ -18,29 +18,17 @@ export default function Navbar() {
           </div>
           <ul className="nav_list_section">
             <li className="nav_footer_list nav_link">
-              <AnchorLink
-                href="#aboutme"
-                offset="40"
-                className="nav_inside_link"
-              >
+              <AnchorLink href="#aboutme" className="nav_inside_link">
                 ABOUT ME
               </AnchorLink>
             </li>
             <li className="nav_footer_list nav_link">
-              <AnchorLink
-                href="#projects"
-                offset="40"
-                className="nav_inside_link"
-              >
+              <AnchorLink href="#projects" className="nav_inside_link">
                 PROJECTS
               </AnchorLink>
             </li>
             <li className="nav_footer_list nav_link">
-              <AnchorLink
-                href="#contact"
-                offset="40"
-                className="nav_inside_link"
-              >
+              <AnchorLink href="#contact" className="nav_inside_link">
                 CONTACT
               </AnchorLink>
             </li>

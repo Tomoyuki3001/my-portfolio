@@ -128,13 +128,13 @@ export const AboutMeStyle = styled.div`
 
   @media (min-width: 1020px) {
     .main_aboutme_section {
-      padding: 5% 15%;
+      padding: 5% 0%;
     }
 
     .main_about_learn_container,
     .main_about_career_container,
     .main_about_photoes_container {
-      padding: 5% 0%;
+      padding: 2.5% 10%;
       text-align: center;
       font-size: 20px;
     }

@@ -76,15 +76,16 @@ export const ContactStyle = styled.div`
 
   @media (min-width: 1020px) {
     .contact_container {
-      margin: 0% 5% 10% 5%;
+      margin: 0% 10%;
     }
     .main_contact_address {
-      padding: 5% 10%;
-      width: 40%;
+      padding: 5%;
+      width: 50%;
       height: 30%;
     }
     .main_contact_section {
       display: flex;
+      padding: 0% 0% 10% 0%;
     }
 
     .main_contact_header_h2 {

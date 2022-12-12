@@ -92,6 +92,7 @@ export const ProjectsStyle = styled.div`
 
     .main_project_h2 {
       font-size: 30px;
+      margin: 0%;
     }
 
     .main_project_sentence {

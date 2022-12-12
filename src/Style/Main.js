@@ -17,7 +17,7 @@ export const MainStyle = styled.div`
 
   @media (min-width: 1021px) {
     .main_section {
-      margin-left: 25%;
+      padding-left: 25%;
       width: 75%;
       background-color: #e5e8ed;
     }

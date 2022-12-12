@@ -1,13 +1,13 @@
 import React from "react";
-import { MainStyle } from "./Style/App";
 import Main from "./Component/Main";
 import Navbar from "./Component/Navbar";
+import { AppStyle } from "./Style/App";
 
 export default function App() {
   return (
-    <MainStyle className="main_container">
+    <AppStyle>
       <Navbar />
       <Main />
-    </MainStyle>
+    </AppStyle>
   );
 }

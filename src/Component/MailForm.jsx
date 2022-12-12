@@ -194,8 +194,7 @@ const StyledContactForm = styled.div`
   }
 
   @media (min-width: 1020px) {
-    width: 40%;
-    padding-right: 15%;
+    width: 50%;
     form {
       width: 100%;
       font-size: 1.5rem;

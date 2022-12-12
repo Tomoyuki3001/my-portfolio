@@ -14,18 +14,21 @@ export const IntroduceStyle = styled.div`
     }
     .main_self_introduce_image {
       border-radius: 50%;
-      width: 40%;
-      height: 40%;
+      width: 50%;
+      height: 50%;
       margin: 10% 0% 5% 0%;
     }
     .main_self_introduce_name_h2 {
       font-size: 20px;
       text-shadow: 2px 2px 5px #ffffff;
+      margin: 0%;
     }
 
     .main_self_introduce_name_h1 {
       font-size: 30px;
       text-shadow: 2px 2px 5px #ffffff;
+      margin: 0%;
+      margin: 0% 0% 5% 0%;
     }
 
     .main_self_introduce_sentence {
@@ -68,7 +71,7 @@ export const IntroduceStyle = styled.div`
 
   @media (min-width: 1020px) {
     .main_introduce_sentence_section {
-      padding: 5%;
+      padding: 5% 0%;
       text-align: center;
       background-image: url(https://wallpaperaccess.com/full/2722365.jpg);
       background-attachment: fixed;

@@ -6,9 +6,9 @@ export const NavStyle = styled.div`
       background-color: #a0bdcc;
       display: flex;
       height: 60px;
-      width: 100%;
       z-index: 10;
       position: fixed;
+      width: 100%;
     }
 
     .nav_section_h1 {
@@ -31,6 +31,7 @@ export const NavStyle = styled.div`
       display: flex;
       justify-content: space-around;
       align-items: center;
+      padding: 0%;
       width: 100%;
     }
 
@@ -151,9 +152,9 @@ export const NavStyle = styled.div`
     .nav_section {
       background-color: #a0bdcc;
       position: fixed;
-      height: 100%;
-      width: 25%;
       text-align: center;
+      width: 25%;
+      height: 100%;
     }
 
     .nav_inside_link {
@@ -201,6 +202,7 @@ export const NavStyle = styled.div`
     .nav_list_section {
       font-size: 1.5rem;
       margin: 0% 0% 5% 0%;
+      padding: 0%;
     }
 
     .nav_footer {
@@ -211,6 +213,7 @@ export const NavStyle = styled.div`
       display: flex;
       justify-content: space-around;
       margin: 0% 10%;
+      padding: 0%;
     }
 
     .nav_icon {

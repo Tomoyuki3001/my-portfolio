@@ -24,7 +24,6 @@ export const ModalStyle = styled.div`
 
     .modal-content {
       width: 30rem;
-      height: 35rem;
       background-color: rgba(245, 245, 245, 0.8);
       transition: all 0.4s ease-in-out;
       transform: translateY(-200px);
@@ -45,13 +44,12 @@ export const ModalStyle = styled.div`
     }
 
     .modal-title {
-      margin: 0;
+      margin: 0%;
       font-size: 1.5rem;
     }
 
     .modal-body {
-      padding: 1px;
-      height: 26rem;
+      padding: 0% 2.5%;
     }
 
     .image_box {
@@ -65,6 +63,7 @@ export const ModalStyle = styled.div`
 
     .favorite_image {
       display: flex;
+      margin: 0%;
     }
 
     .image_box {
@@ -73,8 +72,8 @@ export const ModalStyle = styled.div`
     }
 
     .modal_image {
-      width: 8rem;
-      height: 8rem;
+      width: 45%;
+      height: auto;
     }
 
     .modal-body-favorite-photoes {
@@ -82,10 +81,13 @@ export const ModalStyle = styled.div`
     }
 
     .favorite_h1 {
-      font-size: 1rem;
+      font-size: 20px;
+      margin: 0%;
     }
     .favorite_p {
-      font-size: 0.7rem;
+      font-size: 16px;
+      margin: 0%;
+      padding-left: 10%;
     }
     .button {
       cursor: pointer;
@@ -289,6 +291,7 @@ export const ModalStyle = styled.div`
     .favorite_image {
       width: 120%;
       height: auto;
+      margin: 0%;
     }
 
     .hover {
@@ -306,8 +309,8 @@ export const ModalStyle = styled.div`
           position: absolute;
           left: 50%;
           top: 50%;
-          transform: translate(-41%, -50%);
-          width: calc(120% - 30px);
+          transform: translate(-40%, -50%);
+          width: calc(110% - 30px);
           height: calc(100% - 30px);
           color: #fff;
           border: solid 1px #fff;
@@ -318,8 +321,10 @@ export const ModalStyle = styled.div`
             color: #ffffff;
             .favorite_h1 {
               color: #ffffff;
+              margin: 0%;
             }
             .favorite_p {
+              margin: 0%;
               width: 100%;
               text-align: center;
               position: absolute;

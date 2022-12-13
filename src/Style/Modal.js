@@ -81,11 +81,11 @@ export const ModalStyle = styled.div`
     }
 
     .favorite_h1 {
-      font-size: 20px;
+      font-size: 18px;
       margin: 0%;
     }
     .favorite_p {
-      font-size: 16px;
+      font-size: 13px;
       margin: 0%;
     }
     .button {

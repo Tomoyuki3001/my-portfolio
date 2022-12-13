@@ -72,8 +72,8 @@ export const ModalStyle = styled.div`
     }
 
     .modal_image {
-      width: 45%;
-      height: auto;
+      width: 40%;
+      height: 40%;
     }
 
     .modal-body-favorite-photoes {

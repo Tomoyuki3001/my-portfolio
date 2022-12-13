@@ -87,7 +87,6 @@ export const ModalStyle = styled.div`
     .favorite_p {
       font-size: 16px;
       margin: 0%;
-      padding-left: 10%;
     }
     .button {
       cursor: pointer;

@@ -120,8 +120,6 @@ const StyledContactForm = styled.div`
       width: 100%;
     }
     textarea {
-      max-width: 100%;
-      min-width: 100%;
       width: 100%;
       max-height: 100px;
       min-height: 100px;

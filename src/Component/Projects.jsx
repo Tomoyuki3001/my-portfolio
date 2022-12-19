@@ -9,6 +9,45 @@ export default function Projects() {
           <div className="main_project_images">
             <img
               className="project_images"
+              src={`${process.env.PUBLIC_URL}/img_project_school.png`}
+              alt=""
+            />
+          </div>
+          <div className="main_project_detail_container">
+            <h2 className="main_project_h2">The school website</h2>
+            <p className="main_project_sentence">
+              This website is used by people who are students, instructors, or
+              someone who is interested in here. For students and instructors,
+              they can see own profile page, make new appointments, and make
+              sure own schedule with booking system.
+            </p>
+            <p className="main_project_sentence">
+              Technical Specifications:
+              HTML/CSS/JavaScript/React/Node.js/Postgres
+            </p>
+            <span className="main_project_sentence">
+              <a
+                href="https://github.com/Tomoyuki3001/program-final-project"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <span> / </span>
+              <a
+                href="https://school-website-backend.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Go to the page
+              </a>
+            </span>
+          </div>
+        </div>
+        <div className="main_project_container">
+          <div className="main_project_images">
+            <img
+              className="project_images"
               src={`${process.env.PUBLIC_URL}/image_project_trump.png`}
               alt=""
             />

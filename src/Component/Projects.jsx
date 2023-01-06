@@ -48,6 +48,79 @@ export default function Projects() {
           <div className="main_project_images">
             <img
               className="project_images"
+              src={`${process.env.PUBLIC_URL}/image_project_weather.png`}
+              alt=""
+            />
+          </div>
+          <div className="main_project_detail_container">
+            <h2 className="main_project_h2">Weather apps</h2>
+            <p className="main_project_sentence">
+              Build a React JS weather app using the OpenWeatherMap API. We used
+              axios to connect with our API. Searching each weather information
+              with city name.
+            </p>
+            <p className="main_project_sentence">
+              Technical Specifications: HTML/CSS/JavaScript/React
+            </p>
+            <span className="main_project_sentence">
+              <a
+                href="https://github.com/Tomoyuki3001/weather-react-apps"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <span> / </span>
+              <a
+                href="https://tomoyuki3001.github.io/weather-react-apps/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Go to the page
+              </a>
+            </span>
+          </div>
+        </div>
+        <div className="main_project_container">
+          <div className="main_project_images">
+            <img
+              className="project_images"
+              src={`${process.env.PUBLIC_URL}/image_project_timer.png`}
+              alt=""
+            />
+          </div>
+          <div className="main_project_detail_container">
+            <h2 className="main_project_h2">Timer apps</h2>
+            <p className="main_project_sentence">
+              This is a simple timer app. User can click the start, stop, and
+              reset buttons.
+            </p>
+            <p className="main_project_sentence">
+              Technical Specifications: HTML/CSS/JavaScript
+            </p>
+            <span className="main_project_sentence">
+              <a
+                href="https://github.com/Tomoyuki3001/timer-apps"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <span> / </span>
+              <a
+                href="https://tomoyuki3001.github.io/timer-apps/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Go to the page
+              </a>
+            </span>
+          </div>
+        </div>
+        <div className="main_project_container">
+          <div className="main_project_images">
+            <img
+              className="project_images"
               src={`${process.env.PUBLIC_URL}/image_project_trump.png`}
               alt=""
             />

@@ -269,6 +269,46 @@ export default function Projects() {
             </span>
           </div>
         </div>
+        <div className="main_project_container">
+          <div className="main_project_images">
+            <img
+              className="project_images"
+              src={`${process.env.PUBLIC_URL}/image_project_chat.png`}
+              alt=""
+            />
+          </div>
+          <div className="main_project_detail_container">
+            <h2 className="main_project_h2">The chat app</h2>
+            <p className="main_project_sentence">
+              I build a full-stack chat application using React on the front end
+              and Firebase for the backend technology. No complicated databases
+              here - firebase handles all of that for us. This is an updated
+              version using Firebase web version 9 with modular imports. I also
+              used Tailwind CSS for all the styling.
+            </p>
+            <p className="main_project_sentence">
+              Technical Specifications:
+              HTML/CSS/JavaScript/React.js/Tailwindow/Firebase
+            </p>
+            <span className="main_project_sentence">
+              <a
+                href="https://github.com/Tomoyuki3001/react-chat"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <span> / </span>
+              <a
+                href="https://tomoyuki3001.github.io/react-chat/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Go to the page
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </ProjectsStyle>
   );

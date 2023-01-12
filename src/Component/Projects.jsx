@@ -121,6 +121,44 @@ export default function Projects() {
           <div className="main_project_images">
             <img
               className="project_images"
+              src={`${process.env.PUBLIC_URL}/image_project_todo.png`}
+              alt=""
+            />
+          </div>
+          <div className="main_project_detail_container">
+            <h2 className="main_project_h2">Todo list apps</h2>
+            <p className="main_project_sentence">
+              This is a todo list; it uses Firebase to allow you to save and
+              delete data. Instead of basic CSS, Tailwind is used for the
+              design, which supports both PC and mobile sized screens.
+            </p>
+            <p className="main_project_sentence">
+              Technical Specifications:
+              HTML/CSS/JavaScript/React.js/Firebase/Tailwind
+            </p>
+            <span className="main_project_sentence">
+              <a
+                href="https://github.com/Tomoyuki3001/to-do-list"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <span> / </span>
+              <a
+                href="https://tomoyuki3001.github.io/to-do-list/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Go to the page
+              </a>
+            </span>
+          </div>
+        </div>
+        <div className="main_project_container">
+          <div className="main_project_images">
+            <img
+              className="project_images"
               src={`${process.env.PUBLIC_URL}/image_project_trump.png`}
               alt=""
             />
@@ -288,7 +326,7 @@ export default function Projects() {
             </p>
             <p className="main_project_sentence">
               Technical Specifications:
-              HTML/CSS/JavaScript/React.js/Tailwindow/Firebase
+              HTML/CSS/JavaScript/React.js/Tailwind/Firebase
             </p>
             <span className="main_project_sentence">
               <a
